@@ -1,2 +1,9 @@
-# I'm not live!
-Come back another time to see what I'm up to!
+# Stream Notes
+
+### To Do
+ - [ ] figure out next steps
+### Done
+ - [x] build environment
+ - [x] some sort of bootloading
+ - [x] STRETCH - Hello world?
+ - [x] move lines down when scrolling
