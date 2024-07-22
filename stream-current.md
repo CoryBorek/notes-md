@@ -1,2 +1,4 @@
 # Current Notes
- - Not Live, so no notes!
+I'm not currently live, so no notes here!
+
+Stay tuned!
