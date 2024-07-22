@@ -1,1 +1,5 @@
-# My Notes! This is a test for my notes website!
+# Welcome to my Github Website!
+
+This site is completely written in Markdown!
+
+$f(n) = \log(n)$
