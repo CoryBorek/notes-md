@@ -1,2 +1,2 @@
-# Current Notes
-I'm not currently live, so no notes here!
+# I am not live right now!
+Come back another time to see what I'm up to!
