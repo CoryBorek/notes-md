@@ -3,7 +3,7 @@ This is a list of all my active projects, with some of my public notes on them. 
 
 ## Active Projects
  - ### [Project Stardust](https://coryborek.github.io/projects/project-stardust/), My solution to procrastination.
- - ### [Resource Pack Converter](https://coryborek.github.io/projects/resource-pack-converter), an open source tool to make Resource packs work anywhere.
+ - ### [Resource Pack Converter](https://coryborek.github.io/projects/resource-pack-converter/), an open source tool to make Resource packs work anywhere.
 
 
 
