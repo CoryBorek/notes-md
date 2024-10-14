@@ -12,6 +12,7 @@ With that warning in place, below are the articles that you can read.
 ## Table Of Contents
  - ### [10/8/2024 - First day of entrepreneurship work](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-8)
  - ### [10/9/2024 - Emails, Messages, and Meetings](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-9)
+ - ### [10/13/2024 - Appointments, Naps, Setups, and Messages](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-13)
 
 
 [Back to Index](https://coryborek.github.io/projects/project-stardust/)
