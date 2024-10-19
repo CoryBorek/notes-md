@@ -1,11 +1,17 @@
-# Welcome to my Github Website!
-This is a quick place where I can write a few things about myself!
+# Welcome to my Markdown Website!
+This is my personal markdown site. Most things here are general notes that I don't mind being made available.
 
-### About My Site
-Most of my stuff can be found at [My GitHub site!](https://github.com/CoryBorek/)
+## About Me
+I am a Computer Science Student at the University of Georgia, who is also trying to create a business.
 
-### Markdown Source
+### Github
+A lot of my code can be found on [My Github page!](https://github.com/CoryBorek/)
+
+### Website Source
 The Markdown Source for this website is available at [https://github.com/CoryBorek/notes-md](https://github.com/CoryBorek/notes-md). If you ever notice any typos or issues, feel free to make a bug report there, or to submit a pull request!
 
-### Projects
-My Project notes can be found [here](https://coryborek.github.io/projects/)
+## Pages
+The following is a list of other pages on this site.
+
+ - [Project Notes](https://coryborek.github.io/projects/)
+ - [Class Notes](https://coryborek.github.io/classes/)
