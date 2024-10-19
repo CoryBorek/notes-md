@@ -14,6 +14,7 @@ With that warning in place, below are the articles that you can read.
  - ### [10/9/2024 - Emails, Messages, and Meetings](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-9)
  - ### [10/13/2024 - Appointments, Naps, Setups, and Messages](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-13)
  - ### [10/14/2024 - Meeting Recap](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-14)
+ - ### [10/19/2024 - Finances, Goals, and Outreach](https://coryborek.github.io/projects/project-stardust/devlogs/2024-10-19)
 
 
 [Back to Index](https://coryborek.github.io/projects/project-stardust/)
