@@ -34,4 +34,4 @@ int main(void){
 }
 ```
 
-### [Back to CS2720](https://coryborek.github.io/classes/cs1730/)
+### [Back to CS2720](%WEBPATH%/classes/cs1730/)

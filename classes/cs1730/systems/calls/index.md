@@ -171,7 +171,7 @@ IF you fork bomb odin or the VCF nodes, then your grade may be penalized.
 DO NOT fork bomb any OS.
 
 ## Examples
- - [Fork4 C](https://coryborek.github.io/classes/cs1730/systems/calls/fork4)
- - [Fork4 Makefile](https://coryborek.github.io/classes/cs1730/systems/calls/Makefile)
+ - [Fork4 C](%WEBPATH%/classes/cs1730/systems/calls/fork4)
+ - [Fork4 Makefile](%WEBPATH%/classes/cs1730/systems/calls/Makefile)
 
-### [Back to Systems](https://coryborek.github.io/classes/cs1730/systems/)
+### [Back to Systems](%WEBPATH%/classes/cs1730/systems/)

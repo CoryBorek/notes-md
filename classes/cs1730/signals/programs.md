@@ -200,4 +200,4 @@ clean:
 	rm sig5.out
 ```
 
-### ### [Back to Signals](https://coryborek.github.io/classes/cs1730/signals/)
+### ### [Back to Signals](%WEBPATH%/classes/cs1730/signals/)

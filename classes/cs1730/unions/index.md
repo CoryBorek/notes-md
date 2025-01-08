@@ -95,8 +95,8 @@ Can be accessed with book.price.dollars. or book.price.yen.
 Remember that dollars and yen share memory.
 
 ## Examples
- - [IPV4 C source](https://coryborek.github.io/classes/cs1730/unions/ipv4)
- - [Lorem Ipsum](https://coryborek.github.io/classes/cs1730/unions/Makefile)
+ - [IPV4 C source](%WEBPATH%/classes/cs1730/unions/ipv4)
+ - [Lorem Ipsum](%WEBPATH%/classes/cs1730/unions/Makefile)
 
 
-### [Back to CS1730](https://coryborek.github.io/classes/cs1730/)
+### [Back to CS1730](%WEBPATH%/classes/cs1730/)

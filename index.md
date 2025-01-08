@@ -13,5 +13,5 @@ The Markdown Source for this website is available at [https://github.com/CoryBor
 ## Pages
 The following is a list of other pages on this site.
 
- - [Project Notes](https://coryborek.github.io/projects/)
- - [Class Notes](https://coryborek.github.io/classes/)
+ - [Project Notes](%WEBPATH%/projects/)
+ - [Class Notes](%WEBPATH%/classes/)

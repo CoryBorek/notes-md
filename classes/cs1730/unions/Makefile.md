@@ -1,7 +1,7 @@
 # Unions Makefile
 This would compile the IPV4 example.
 
-The C Source can be found [here](https://coryborek.github.io/classes/cs1730/unions/ipv4).
+The C Source can be found [here](%WEBPATH%/classes/cs1730/unions/ipv4).
 ```
 compile: ipv4.out
 
@@ -14,4 +14,4 @@ clean:
 	rm ipv4.out
 ```
 
-### [Back to Unions](https://coryborek.github.io/classes/cs1730/unions/)
+### [Back to Unions](%WEBPATH%/classes/cs1730/unions/)

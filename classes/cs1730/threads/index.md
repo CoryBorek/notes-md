@@ -48,4 +48,4 @@ int phtread_create(pthread_t* thread, const pthread_attr_t *attr, void * (* star
   - if you need to pass multiple arguments, then arg should be the
     address of a struct containing multiple things.
 
-### [Back to CS1730](https://coryborek.github.io/classes/cs1730/)
+### [Back to CS1730](%WEBPATH%/classes/cs1730/)

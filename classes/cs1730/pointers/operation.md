@@ -40,4 +40,4 @@ clean:
 
 ```
 
-### [Back to Pointers](https://coryborek.github.io/classes/cs1730/pointers/)
+### [Back to Pointers](%WEBPATH%/classes/cs1730/pointers/)

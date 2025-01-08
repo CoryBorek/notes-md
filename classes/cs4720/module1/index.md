@@ -109,4 +109,4 @@ Adding Two numbers
  - Actual numbers are data.
 
 
-### [Back to CS4720](https://coryborek.github.io/classes/cs4720/)
+### [Back to CS4720](%WEBPATH%/classes/cs4720/)

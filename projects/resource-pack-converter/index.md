@@ -4,4 +4,4 @@ I have been wokring on a Resource Pack Converter since about 2019. I don't alway
 
 You can find it [here!](https://github.com/agentdid12/ResourcePackConverter)
 
-[Back to Projects](https://coryborek.github.io/projects/)
+[Back to Projects](%WEBPATH%/projects/)

@@ -81,4 +81,4 @@ void even(int x) {
 
 ```
 
-### [Back to CS1730](https://coryborek.github.io/classes/cs1730/)
+### [Back to CS1730](%WEBPATH%/classes/cs1730/)

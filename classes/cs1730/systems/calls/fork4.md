@@ -1,6 +1,6 @@
 # Fork4.c Example
 
-This is an example C source. The Makefile for this program can be found [here](https://coryborek.github.io/classes/cs1730/systems/calls/Makefile).
+This is an example C source. The Makefile for this program can be found [here](%WEBPATH%/classes/cs1730/systems/calls/Makefile).
 
 ```c
 #include  <stdio.h>
@@ -50,4 +50,4 @@ void parentProcess(){
   printf("*** Parent is done ***\n");
 }
 ```
-### [Back to Calls](https://coryborek.github.io/classes/cs1730/systems/calls/)
+### [Back to Calls](%WEBPATH%/classes/cs1730/systems/calls/)

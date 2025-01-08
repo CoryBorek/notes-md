@@ -2,7 +2,7 @@
 
 This is a Makefile that can be used to run fork4.c.
 
-Fork4.c's source can be found [here](https://coryborek.github.io/classes/cs1730/systems/calls/fork4).
+Fork4.c's source can be found [here](%WEBPATH%/classes/cs1730/systems/calls/fork4).
 ```
 compile: fork4.out
 

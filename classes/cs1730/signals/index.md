@@ -68,5 +68,5 @@ kill(iPid, SIGINT);
 
 ```
 ## Other Examples
- - [Signal Programs](https://coryborek.github.io/classes/cs1730/signals/programs)
-### [Back to CS2720](https://coryborek.github.io/classes/cs1730/)
+ - [Signal Programs](%WEBPATH%/classes/cs1730/signals/programs)
+### [Back to CS2720](%WEBPATH%/classes/cs1730/)

@@ -13,7 +13,7 @@ I was accepted into the [University of Georgia's Idea Accelerator](https://www.t
 ## Notes/Articles
 If I ever write any notes or articles, they will be available on this site (for now at least). I have also written, alongside Aiden (who has stepped back from the company) [Medium Progress Reports](https://medium.com/@agentdid127/list/alium-progress-reports-be3e66842afd).
 
-[My Development Logs can be found here](https://coryborek.github.io/projects/project-stardust/devlogs/)
+[My Development Logs can be found here](%WEBPATH%/projects/project-stardust/devlogs/)
 
 
-[Back to Projects](https://coryborek.github.io/projects/)
+[Back to Projects](%WEBPATH%/projects/)

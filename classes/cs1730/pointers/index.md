@@ -236,6 +236,6 @@ Size of Friend is 156 bytes, as move is 56 and the arrays are 50 each.
 
 # Examples
 
- - ### [Operation](https://coryborek.github.io/classes/cs1730/pointers/operation)
+ - ### [Operation](%WEBPATH%/classes/cs1730/pointers/operation)
 
-### [Back to CS1730](https://coryborek.github.io/classes/cs1730/)
+### [Back to CS1730](%WEBPATH%/classes/cs1730/)

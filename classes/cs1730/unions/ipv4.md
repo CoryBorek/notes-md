@@ -1,7 +1,7 @@
 # IPV4 Example
 
 This is an example program in C that uses unions to define an IPV4 address.
-You can also get a Makefile to use with this [here](https://coryborek.github.io/classes/cs1730/unions/Makefile).
+You can also get a Makefile to use with this [here](%WEBPATH%/classes/cs1730/unions/Makefile).
 ```c
 #include <stdio.h>
 
@@ -37,4 +37,4 @@ int main(void){
 }
 ```
 
-### [Back to Unions](https://coryborek.github.io/classes/cs1730/unions/)
+### [Back to Unions](%WEBPATH%/classes/cs1730/unions/)

@@ -42,4 +42,4 @@ lseek - move to specific byte in file
 unlink - remove a file
 fnctl - fcntl - control attributes assoc. w/ file
 
-### [Back to Systems](https://coryborek.github.io/classes/cs1730/systems/)
+### [Back to Systems](%WEBPATH%/classes/cs1730/systems/)
