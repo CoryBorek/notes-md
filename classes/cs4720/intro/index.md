@@ -214,4 +214,4 @@ Research - Computer architectures. ISAs.
 
 Send professor an email if you are interested. (attach a copy of your resume.)
 
-### [Back to CS4720](https://coryborek.github.io/classes/cs14720/)
+### [Back to CS4720](https://coryborek.github.io/classes/cs4720/)
