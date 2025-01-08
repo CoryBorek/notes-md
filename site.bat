@@ -1,3 +1,3 @@
-cd ..
-serve -S .
-cd markdown
+cd ../../..
+call npm start
+cd public/CoryBorek/notes-md

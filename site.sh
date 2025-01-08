@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ..
+cd ../../..
 serve -S .
-cd markdown
+cd public/CoryBorek/notes-md
