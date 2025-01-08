@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h> // not in professor's notes, but needed to function
 
 // pointer 
 struct rec {
