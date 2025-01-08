@@ -98,4 +98,108 @@ int main() {
 - Return from a subroutine
 - Access devices
 
+# Schedule
+Module 1:
+ Intro to architecture, performance evaluation (1)
+Module 2:
+Combination logic design (Appendix B)
+
+Module 3: (Intro to Mips assembly) MIPS programming (2)
+
+Module 4: Sequential logic design
+
+Module 5:
+
+# Lecture information
+Three classes every week
+
+Wednesday: 4:10 - 5:00 PM (Quizzes/homeworks) Plant Sci 1501
+
+Tuesday Thursday: 3:55 - 5:10 Geog Geol 200A
+
+Schedule: on ELC
+
+Office Hours: By appointment
+
+# Grading Policy - Overview
+Midterm - 25%
+
+Final - 25%
+
+Quizzes: 20%
+
+Homework: 15%
+
+Programming Projects: 15%
+
+Attendence is not manditory, but **encouraged**.
+
+## Midterm & Final - 50%
+Closed book, in person/online
+
+Exams are coprehensive. You are expected to know all materials covered in the lectures, assignments, and programming projects.
+
+## Quizzes - 20%
+6 Quizzes (tentative)
+
+Each one is over a module (1-6)
+
+Should do after homework.
+
+Will be online. Have 4-5 days to complete.
+
+## Homework - 15%
+
+6 homework assignments (Modules 1-6)
+
+No time enforcement. Have a number of days to complete.
+
+## Programming Projects
+
+- 3 Programming Projects (Tentative)
+
+Will be written in MIPS assembly to complete some computation tasks
+
+Late submissions will not be accepted.
+
+EX: find maximum value in an array of integers.
+
+Will have a deadline. Test before submission. Submit on ELC.
+
+Will have about a month to work on a project.
+
+# Course Information
+We will use eLC [https://elc.uga.edu/](https://elc.uga.edu/) to post course materials and information
+
+-  Announcements
+- Lecture slides
+
+# Final grade calculation
+
+$M * 0.25 + F * 0.25 + \frac{Q1 + Q2 + Q3 + Q4 + Q5 + Q6}{6} * 0.2 + \frac{H1 + H2 + H3 + H4 + H5 + H6}{6} * 0.15 + \frac{P1 + P2 + P3}{3} * 0.15$
+
+# Academic Honesty
+Don't copy/paste work from uncited sources
+
+UGA academic honesty policy:
+
+https://honesty.uga.edu/Academic-Honesty-Policy/
+
+## This is a Very tough course
+
+- Study very hard to get passed.
+- Study very very hard to get a so-so grade.
+- Study very very very hard to get an A.
+
+- You still have tine to quit.
+
+# Funded research opportunities
+
+For undergrad
+
+REsearch - Computer architectures. ISAs.
+
+Send an email if you are interested. (attach a copy of your resume.)
+
+# Questions
 ### [Back to CS4720](https://coryborek.github.io/classes/cs14720/)
