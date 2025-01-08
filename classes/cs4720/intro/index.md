@@ -1,6 +1,6 @@
 # Introduction
 
-Wenwen Wang - ASsistant Professor at School of Computing
+Wenwen Wang - Assistant Professor at School of Computing
 
 Boyd 806
 
@@ -88,8 +88,8 @@ int main() {
 
 # What does a compjuter program do when it runs?
 
- - It executes instructions1
-  - It fetches an instruction from memory, decodes it, and executes it!
+ - It executes instructions!
+ - It fetches an instruction from memory, decodes it, and executes it!
 
 ## Example
 - Add two integers
@@ -99,16 +99,25 @@ int main() {
 - Access devices
 
 # Schedule
-Module 1:
- Intro to architecture, performance evaluation (1)
-Module 2:
+## Module 1:
+Intro to architecture, performance evaluation (Chapter 1)
+ 
+## Module 2:
 Combination logic design (Appendix B)
 
-Module 3: (Intro to Mips assembly) MIPS programming (2)
+## Module 3:
+Intro to Mips assembly, MIPS programming (Chapter 2)
 
-Module 4: Sequential logic design
+## Module 4:
+Sequential logic design (Appendix B)
 
-Module 5:
+## Module 5:
+Computer Arithemetic (Chapter 3)
+
+## Module 6:
+CPU data path and control path (Chapter 4)
+
+CPU Pipelining (Chapter 4)
 
 # Lecture information
 Three classes every week
@@ -173,6 +182,10 @@ We will use eLC [https://elc.uga.edu/](https://elc.uga.edu/) to post course mate
 
 -  Announcements
 - Lecture slides
+- Online Discussions
+- Assignemnt Submissiosn
+- Quizzes and Exams
+- Scores
 
 # Final grade calculation
 
@@ -197,9 +210,8 @@ https://honesty.uga.edu/Academic-Honesty-Policy/
 
 For undergrad
 
-REsearch - Computer architectures. ISAs.
+Research - Computer architectures. ISAs.
 
-Send an email if you are interested. (attach a copy of your resume.)
+Send professor an email if you are interested. (attach a copy of your resume.)
 
-# Questions
 ### [Back to CS4720](https://coryborek.github.io/classes/cs14720/)
