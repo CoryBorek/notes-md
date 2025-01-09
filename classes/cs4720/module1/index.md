@@ -250,6 +250,13 @@ Software that provides services that are commonly useful
   - Handling basic I/O
   - Allocating storage and memory
 
+## HW and SW Layers
+
+- Hardware
+- System Software
+ - I/E Unix, Windows, OS/2.
+- Application Software
+  - most programs are here
 ## list of layers
 
 - Algorithm + Data Structures
@@ -259,5 +266,19 @@ Software that provides services that are commonly useful
 - ISA
 - Architecture (ALU, MUX, etc.)
 - Boolean Logic Design
+
+
+# Instruction Set ARchitecture (ISA)
+A Very important abstraction
+
+Interface between hardware and software
+
+Advantage: different implementations of the same architecture
+
+Disadvantage: sometimes prevents using new innovations
+
+Modern instruction set architectyres:
+
+x86, ARM, RISC-V, PowerPC, MIPS, SPARK, and others
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
