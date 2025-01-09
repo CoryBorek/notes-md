@@ -98,9 +98,7 @@ In order of Speed
  3. Memory (typically GB)
  4. Disk (typically TB)
 
-
 Persistent Memory is a new type of memory, close to DRAM, but will persist.
-
 
 ## Example
 Adding Two numbers
