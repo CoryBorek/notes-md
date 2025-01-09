@@ -103,8 +103,27 @@ Persistent Memory is a new type of memory, close to DRAM, but will persist.
 ## Example
 Adding Two numbers
 
- - Addition operation is an instructnio
+ - Addition operation is an instruction
  - Actual numbers are data.
+ ```asm
+  add r1 r2 r3
+ ```
+
+# I/O
+## Input devices
+Mouse, Keyboard, Microphone
+
+## Output Devices
+Display, Headphones, Printer
+
+# Buses
+Think of them as roads that connect different parts of a computer
+
+Three types
+
+ - address bus
+ - data bus
+ - control bus
 
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)

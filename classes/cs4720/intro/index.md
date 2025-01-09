@@ -50,6 +50,7 @@ We will focus on the key concepts of modern computer architecture
   - we will use MIPS assembly for our projects.
 
 # C Example
+[rec.c](%WEBPATH%/classes/cs4720/intro/rec_c)
 ```c
 #include <stdio.h>
 
