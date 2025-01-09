@@ -184,4 +184,80 @@ It consists of the following:
 - Input Technologies
 - Communication technologies
 
+## Some Primary Storage
+
+### Registers
+part of the CPU with te least capacity
+storing extremely limited amoutns
+
+### RAM
+### Cache Memory
+
+## Secondary Storage
+Memory capacity that can store very large amounts of data for extened periods of time.
+
+It is non-volatile
+
+It takes much more time to retrieve data
+
+It is cheaper than primary storage
+
+It can take place on a variety of media
+
+Examples: disk, tape
+
+# Computers are used in different classes of applications
+
+## Desktop computers
+ designed for use by an individual
+
+## Servers
+ used for running larger programs for multiple users, and typically accessed via a network
+
+## Supercomputer
+ high-end scientific and engineering calculations
+  - Highest capability but represent a small fraction of the overall computer market
+
+## Embedded computers
+ hidden as components of systems. A computer inside another device used for running one predetermined application.
+
+# Eight great ideas in computer architecture
+
+Design for Moore's law
+
+Use abstraction to simplify design
+
+Make the common case fast
+
+Performance vi Parallelism
+
+Performance via pipelining
+
+Performance via prediction
+
+Hierarchy of memories
+
+Dependability via redundancy
+
+
+# Layers of Software
+## System Software
+Software that provides services that are commonly useful
+  - Operating Systems
+  - Compilers
+
+  Operating System interfaces between a user's program and the hardware and provides supervisory functions such as:
+  - Handling basic I/O
+  - Allocating storage and memory
+
+## list of layers
+
+- Algorithm + Data Structures
+- Language
+- OS
+- Compiler
+- ISA
+- Architecture (ALU, MUX, etc.)
+- Boolean Logic Design
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
