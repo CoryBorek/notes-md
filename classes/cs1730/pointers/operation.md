@@ -1,7 +1,7 @@
 # Operation Example
 The following files are necessary to run the operation example.
 
-## operation.c
+## [operation.c](%WEBPATH%/classes/cs1730/pointers/operation_c)
 ```c
 #include <stdio.h>
 
@@ -25,7 +25,7 @@ int main(void) {
 }
 ```
 
-## Makefile
+## [Makefile](%WEBPATH%/classes/cs1730/pointers/Makefile)
 ```
 
 compile: operation.out
