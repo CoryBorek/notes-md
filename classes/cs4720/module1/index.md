@@ -60,7 +60,8 @@ Need to understand abstractions such as
  ## Central Processing Unit has thre major parts
 
  ### Control Unit and Instruction Decoder
-    Decides what computation to do
+
+Decides what computation to do
 
  ### Arithmetic/Logic Unit
  Does the math, and logic
