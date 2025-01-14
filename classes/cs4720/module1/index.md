@@ -151,14 +151,17 @@ We can have a multi level cache
 Main memory is much larger than cache.
 
 ## Typical cache structure
-L1 is closest to cores
-has data and instructions
+### L1
+ - is closest to cores
+    - has data and instructions
 
-l2 is a unified cache
+### L2
+ - is a unified cache
 
-l3 is shared by all cores.
+### L3 
+ - is shared by all cores.
 
-### Cache coherence protocol
+## Cache coherence protocol
 determines how processor cores can share memory and communicate with each other.
 
 # Microprocessor, Microcomputer, Micro controller
@@ -167,10 +170,10 @@ determines how processor cores can share memory and communicate with each other.
 CPU unit packaged in a single chip, e.g. Interl Core processors
 
 ## Microcomputer
-a computer taht uses a Microprocessor as a CPU, e.g. a personal computer
+a computer that uses a Microprocessor as a CPU, e.g. a personal computer
 
 ## Microcontroller
-Created b y packaging CPU, Memory, and I/O parts and buses in a single chip, e.g., Intel 8051, ARM Cortex-M.
+Created by packaging CPU, Memory, and I/O parts and buses in a single chip, e.g., Intel 8051, ARM Cortex-M.
 
 Also called a SoC or System on Chip.
 
@@ -187,11 +190,15 @@ It consists of the following:
 ## Some Primary Storage
 
 ### Registers
-part of the CPU with te least capacity
-storing extremely limited amoutns
+part of the CPU with the least capacity
+storing extremely limited amounts
 
 ### RAM
+Random Access Memory, lowest level of primary storage. usually on a separate chip. Most common form is in DRAM, (DDR3,4,5, etc.)
+
 ### Cache Memory
+part of the CPU packaging. Can have multiple tiers. Slower than registers, but faster than RAM.
+
 
 ## Secondary Storage
 Memory capacity that can store very large amounts of data for extened periods of time.
@@ -223,22 +230,14 @@ Examples: disk, tape
 
 # Eight great ideas in computer architecture
 
-Design for Moore's law
-
-Use abstraction to simplify design
-
-Make the common case fast
-
-Performance vi Parallelism
-
-Performance via pipelining
-
-Performance via prediction
-
-Hierarchy of memories
-
-Dependability via redundancy
-
+1. Design for Moore's law
+2. Use abstraction to simplify design
+3. Make the common case fast
+4. Performance via Parallelism
+5. Performance via pipelining
+6. Performance via prediction
+7. Hierarchy of memories
+8. Dependability via redundancy
 
 # Layers of Software
 ## System Software
@@ -250,15 +249,15 @@ Software that provides services that are commonly useful
   - Handling basic I/O
   - Allocating storage and memory
 
-## HW and SW Layers
+## Hardware and Software Layers
 
 - Hardware
 - System Software
- - I/E Unix, Windows, OS/2.
+  - I/E Unix, Windows, OS/2.
 - Application Software
   - most programs are here
-## list of layers
 
+## list of layers
 - Algorithm + Data Structures
 - Language
 - OS
@@ -267,9 +266,8 @@ Software that provides services that are commonly useful
 - Architecture (ALU, MUX, etc.)
 - Boolean Logic Design
 
-
-# Instruction Set ARchitecture (ISA)
-A Very important abstraction
+# Instruction Set Architecture (ISA)
+A very important abstraction
 
 Interface between hardware and software
 
@@ -278,7 +276,12 @@ Advantage: different implementations of the same architecture
 Disadvantage: sometimes prevents using new innovations
 
 Modern instruction set architectyres:
-
-x86, ARM, RISC-V, PowerPC, MIPS, SPARK, and others
+ - x86
+ - ARM
+ - RISC-V
+ - PowerPC
+ - MIPS
+ - SPARK
+ - others
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
