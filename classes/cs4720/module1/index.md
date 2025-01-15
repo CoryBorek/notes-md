@@ -429,7 +429,7 @@ Computer B is $1.5$ times slower than computer $A$.
 
 # CPU time
 
-Is devided in two:
+Is divided in two:
 1. User CPU time
 2. System CPU time
 
