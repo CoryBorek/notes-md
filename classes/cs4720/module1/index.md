@@ -285,4 +285,233 @@ Modern instruction set architectyres:
  - SPARK
  - others
 
+# Instruction Set
+kind of like the CPU's API.
+
+We will be using the MIPS instruction set for this course.
+
+If you compile binary code for one instruction set, it will function on any machine that recognizes that instruction set (i.e. x86 compiled binaries will run on x86 machines)
+
+Instruction set can also prevent innovation in a computer architecture
+
+Instead of changing instructions, you have to add on to the set instead of changing the instruction set.
+
+# Hardware and Software revolution
+
+- Hardware
+  - Personal Mobile Devices instead of PC
+  - Cloud Computing
+- Software
+  - Software as a Service (SaaS)
+
+# Post Mobile Devices
+Small wireless devices that connect to the internet
+
+They rely on batteries for power
+
+Software is apps
+
+Examples are smartphones and tablets
+
+# Cloud Computing
+ - Instead of traditional servers
+
+ Relies on giant data enters that are now known as *Warehouse scale computers (WSCs)*
+
+ Amazon and Google build these WSCs
+
+ Let companies rent portions of them so that they can provide software services to users without having to build WSCs of their own.
+
+ (hosting in a datacenter is cheaper than them though lol)
+
+ # Delivery modes of cloud computing
+
+ Software as a Service
+
+ Platform as a Service
+
+ Infrastructure as a Service
+
+## Function as a Service
+
+Developers only need to provide the function of the microservice to the cloud.
+
+When the user uses it, they only call the function.
+
+Cloudflare has a service for this.
+
+## SaaS
+ - Deployed via the Cloud
+
+ - Delivers software and data as a service over the Internet, usually via a thin program such as a browser
+
+ Examples: web search and social networking
+
+## PaaS
+Programming languages an OS are provided by vendor, System developers use PaaS
+
+## IaaS
+Resources including data storage and servers are provided by vendor
+
+System admins are using IaaS.
+
+
+# Number Manufactured by Year (2012)
+
+ - Smart phones are the fastest
+ - Cell phones were the largest in 2012
+ - PC is a slower growth
+ - Tables are growing too.
+
+
+# What is Performance?
+
+ - Capacity , range, and speed for a number of commercial airplanes
+
+| Airplane | Passenger Capacity | Cruising Range | Cruising Speed | Passenger throughout |
+ | --- | --- | --- | --- | -- |
+ | Boeing 777 | 375 | 4630 | 610 | 228,750 |
+ | Boeing 747 | 470 | 4150 | 610 | 286,700 |
+ | Concorde | 132 | 4000 | 1350 | 178,200 |
+ | Douglas DC-8-50 | 146 | 8720 | 544 | 79,424 |
+
+ Which one is the fastest?
+
+ Different ideas based on definition of fastest.
+
+ Concorde has highest speed 
+
+ # Throughput and response time
+
+- They are the computer measure of performance
+
+- **Response time** or **execution time** total time required for the computer to complete a task (in seconds)
+
+- **Throughput** or **bandwith**: the total amount of work done during a given time period
+
+- **Decreasing response time almost always improves throughput**
+
+- **We focus on response time.**
+
+When we are talking about a computer being faster than another, we are talking about response time or execution time. (Latency)
+
+# Example
+Do the following changes to a computer system increase throughput, decrease response time, or both?
+
+1. Replace the processor in a computer with a faster version.
+2. Adding additional processors to a system that uses multiple processors for separate tasks, for example - searching the web.
+
+# Performance
+
+$Performance_x = \frac{1}{executiontime_x}$
+
+$Performance_x > Performance_y$
+
+$\frac{1}{execution time_x} > \frac{1}{execution time_y}$
+
+$execution time_y > execution time_x$
+
+Suppose we have two computers, how to we find out which one is faster?
+
+ - Run the same code on two different computers, whichever one takes longer is slower.
+
+# Relative Performance
+
+Computer $A$ runs a program in $10$ seconds, and computer $B$ runs the same program in $15$ seconds, How much faster is $A$ than $B$?
+
+$\frac{Performance_A}{Performance_B} = \frac{Execution time_B}{Execution time_A} = n$
+
+Performance Ratio is $\frac{15}{10} = 1.5$
+
+A is therefore $1.5$ times as fast as $B$
+
+Computer B is $1.5$ times slower than computer $A$.
+
+# CPU time
+
+Is devided in two:
+1. User CPU time
+2. System CPU time
+
+We use user CPU time as CPU performance metric.
+
+This happens because we need to run this program on the operating system. 
+
+The execution of the UNIX `open` syscall is part of the system time.
+
+The User time only accounts for how long the program itself runs.
+
+We can't control the OS (per se)
+
+# CPU clocking
+
+Operation of digital hardware is governed by a constant-rate clock.
+
+Clock period: duration of a clocksycle
+
+e.g., $250 ps = 0.25 ns = 250 * 10^{-12} s$
+
+Clock frequency (rate): cycles per second
+
+e.g. $4.0 GHz = 4000 Mhz = 4.0*10^9 Hz$
+
+# CPU time
+
+$time_{cpu} = cycles * cycleTime = \frac{clockCycles}{clockRate}$
+
+Clock rate is clock frequency
+
+Cycle time = $\frac{1}{clockRate}$
+
+unit of CPU time is in seconds.
+
+## Improve Performance
+- Reduce number of clock cycles
+- Increase clock rate
+- Hardware designers must often trade off clock rate against cycle count
+
+## Example
+Computer A: 2Ghz clock, 10s CPU time
+
+Designing Computer B
+
+Aim for 6s CPU time
+
+Can do faster clock, but causes 1.2* clock cycles
+
+- How fast must computer B clock be?
+
+$rate_b = \frac{cycles_b}{time_b} = \frac{1.2 * cycles_a}{6s}$
+
+$cycles_a = time_a * rate_a = 10s * 2GHz = 20 * 10^9$
+
+$rate_b = \frac{1.2*20*10^9}{6s} = \frac{24 * 10^9}{6s} = 4GHz$
+
+## Performance Equation II
+
+Number of clock cycles required for a program can be written as
+
+clock cycles = instructions * avg cycles per instruction (CPI)
+
+$cycles = instructions * avg(cpi)$
+
+
+## Classic CPU perfomance equation
+
+Execution Time = clock cycle time * instruction count * CPI
+
+
+CPU time = $\frac{instruction count * CPI}{clockrate}$
+
+These equations separate the three key factors that affect performance.
+
+Instruction count for a program
+ - Determined by program, ISA, and compiler
+
+ Average cycles per instruction
+ - Determined by CPU hardware
+ - If different instructions have different CPI
+   - Average CPI affected by instruction mix.
+
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
