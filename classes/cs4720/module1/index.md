@@ -514,4 +514,10 @@ Instruction count for a program
    - Average CPI affected by instruction mix.
 
 
+# Homework for Module 1
+
+Available 1/15/25 on [eLC](https://elc.uga.edu/)
+
+Due Wed. Jan 22, 2025, 11:59 PM
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)

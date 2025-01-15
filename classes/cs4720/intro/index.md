@@ -215,4 +215,8 @@ Research - Computer architectures. ISAs.
 
 Send professor an email if you are interested. (attach a copy of your resume.)
 
+# TA Information
+Wen Zheng
+Tues/Thurs 11-12 something Boyd
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
