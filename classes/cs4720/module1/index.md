@@ -646,6 +646,52 @@ Hard to do
  - Load balancing
  - Optimizing communications and synchronization
 
+
+## Multicore example
+Increasing an integer counter by 1000 times.
+
+```c
+// this is a simple single-threaded loop. Just have the main thread execute it.
+for (int i = 0; i < 1000; i++) {
+  counter++;
+}
+```
+
+If we have two cores, we can distribute this loop into two cores, or threads, happening at the same time.
+
+Theoretically, we would split the time in half by dividing it, but practically, it is more complicated
+
+if we run both, we would have a race condition, which causes problems.
+
+Instead, we will have to use a mutex to lock and unlock the variable, so it only modifies it once. This adds extra delay, but is accuate.
+
+The best-case scenario is when there is no shared data, though in most real-world applications, we will need to share some data, which will have some costs, so we most likely will not get the maximum performance improvememnt.
+
+If you don't use a mutex, you will get a nondeterministic result, which will be very difficult to debug.
+
+These are some of the issues with parallelism.
+
+When writing with a high-level language like Java, there are still some manual syncronization things that have to be done.
+
+Employing a multicore processor is not a simple task, and writing an efficient, scalable multiprocessor program is not an easy task. This is still an area that is heavily researched.
+
+Parallel computing is an interesting course. Lots of interesting topics (according to Professor Wang.).
+
+# SPEC CPU Benchmark
+
+Programs used to measure performance
+ - Supposedly typical of actual workload
+
+ Standard Performance Evalulation corp (SPEC)
+  - Develops benchmarks for CPU, I/O, web...
+
+SPEC CPU 2006
+ - CINT2006 (integer) and CFP(floating-point)
+ - Elapsed time to execute a selection of programs
+   - Negligible I/O, so focuses on CPU performance
+ - Normalize relative to reference machine
+ - Summarize as geometric mean of performance ratios
+
 # Homework for Module 1
 
 Available 1/15/25 on [eLC](https://elc.uga.edu/)
