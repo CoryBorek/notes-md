@@ -513,6 +513,138 @@ Instruction count for a program
  - If different instructions have different CPI
    - Average CPI affected by instruction mix.
 
+## CPI Example
+Computer A: cycle time = 250ps, CPI = 2.0
+
+Computer B: Cycle Time = 500 ps, CPI = 1.2
+
+Same ISA
+
+Which is Faster, and by how much?
+
+$cputime_a = IC * CPI_A * CTime_A$
+
+$=I*2.0*250ps = I * 500ps$
+
+$cputime_b = IC * CPI_B * CTime_B$
+
+$=I*1.2*500=I*600ps$
+
+$\frac{cputime_b}{cputime_a}=\frac{I*600ps}{I*500ps}=1.2$
+
+$A$ is $1.2$ times faster than $B$, because it takes less time to complete instructions.
+
+## CPI in more detail
+If different instruction classes dake different numbers of cycles
+
+$cycles = \sum_{i=1}^{n}(CPI_i * IC_i)$
+
+## Comparing Code Segments
+
+Selecting two code sequences
+
+### CPI for each instruction class
+| | A | B | C |
+| - | - | - | - |
+| CPI | 1 | 2 | 3 |
+
+### Instruction counts
+| Code Sequence | A | B | C |
+| - | - | - | - |
+1 | 2 | 1 | 2
+2 | 4 | 1 | 1 |
+
+### Sequence 1
+Instruction count = 5
+
+Clock Cycles = 
+$2*1 + 1 * 2 + 2 * 3 = 10$
+
+$Avg = 10/5 = 2$
+
+### Sequence 2
+IC = 6
+
+$Clock Cycles = 4 * 1 + 1 * 2 + 1 * 3 = 9$
+
+$Avg = 9/6 = 1.5$
+
+### Comparing
+
+$T_1 = 20, T_2 = 13.5$
+
+Smaller is better, T_2 wins.
+
+$\frac{\frac{1}{20}}{\frac{1}{13.5}} = \frac{13.5}{20}$
+
+$T_2$ is 1.48 times faster.
+
+## Side-note
+An important compiler optimization is stress reduction. Replace complex instructions with instructions that take less time to finish.
+
+# Performance Summary
+**The BIG PICTURE**
+
+$CPU TIME = \frac{instructinos}{program} * \frac{clockcycles}{instruction} * \frac{seconds}{clockcycle}$
+
+Performance Depends on
+ - Algorithm: affects IC, possibly CPI
+ - Programming Language: affects IC, CPI
+ - Compiler: affects IC, CPI
+ - Instruction set architecture: affects IC, CPI, $T_C$
+
+# Energy Consumption
+The primary source of energy consumption in integrated circuit (IC) is so-called dynamic energy - that is, energy that is consumed when transistors switch states from 0 to 1 and vice versa
+
+The dynamic energy depends on the capacitive loading for each transistor and the voltage applied:
+
+$Energy \varpropto capacitive laod * voltage^2$
+
+This equation is the energy of a pulse during the logic transition of 0 -> 1 -> 0 or 1 -> 0 -> 1. The energy of a single transition is then
+
+$Energy \varpropto 1/2 * capacitive laod * voltage^2$
+
+The power required per transistor is just the product of energy of a transition and the frequency of transitions:
+
+$Power \varpropto 1/2 * capacitive load * voltage^2 * frequency switched$
+
+varpropto is an estimation, not exact. (accurator formula)
+
+## Power Trends
+
+## Reducing Power
+Suppose a new CPU has
+
+85% of capacitive load of old CPU
+
+15% of voltage and 15% frequency reduction
+
+$\frac{P_{new}}{P_{old}} = \frac{C_{old} * 0.85 * (V_{old} * 0.85)^2 * F_{old} * 0.85}{C_{old}*{V_{old}^2 * F_{old}}} = 0.85^4 = 0.52$
+
+The power wall
+ - We can't reduce voltage further
+ - We can't remove more heat
+
+ How else can we improve performance?
+
+## Multicore Processors
+
+Multicore Microprocessors
+
+More than one processor per chip
+
+Requires explicitly parallel programming
+
+ - Compare with instruction level parallelism
+
+   - Hardware executes multiple instructions at once
+
+   - Hidden from the programmer
+
+Hard to do
+ - Programming for performance
+ - Load balancing
+ - Optimizing communications and synchronization
 
 # Homework for Module 1
 
