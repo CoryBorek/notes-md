@@ -692,6 +692,68 @@ SPEC CPU 2006
  - Normalize relative to reference machine
  - Summarize as geometric mean of performance ratios
 
+# Common Case Fast
+Suppose a program runs in 100 secionds on a computer with multiply operations responsible for 80 seconds of this time
+
+How much do I have to improve the speed of multiplication if i want my program to run five times faster?
+
+## Execution Time after improvement
+$= \frac{time_{affected}}{amnt_{improved}} + time_{unaffected}$
+
+# Fallacy: Low power at idle
+
+Look back at i7 power benchmark
+
+At 100% load: 258W
+
+at 50% load: 170W (66%)
+
+at 10% load (47%)
+
+Google Data center
+Mostly operates at 10%-50% load
+
+At 100% load less than 1% of the time
+
+Consider designing processors to make power proportional to load
+
+# Pitfall: MIPS as a performance metric
+
+MIPS: Milliions of instructions per second
+
+Doesn't account for
+ - Differences in ISAs between computers
+ - Difference in complexity between instructions
+
+IC=  Instruction count
+
+ET = execution time
+
+CR = Clock rate
+
+ $MIPS = \frac{IC}{ET*10^6}$
+
+ $ = \frac{IC}{\frac{IC*CPI}{CR}*10^6} = \frac{CR}{CPI*10^6}$
+ 
+ # Concluding Remarks
+ Cost/performance is improving
+
+ - Due to underlyuing technology development
+
+ Hierarchical layers of abstraction
+
+  - In both hardware and software
+
+ Instruction set architecture
+
+  - The hardware software interface
+
+ Execution time: the best performance measure
+
+ Power is a limiting factor
+
+  - Use parallelism to improve performance
+
 # Homework for Module 1
 
 Available 1/15/25 on [eLC](https://elc.uga.edu/)
