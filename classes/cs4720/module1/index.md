@@ -760,4 +760,12 @@ Available 1/15/25 on [eLC](https://elc.uga.edu/)
 
 Due Wed. Jan 22, 2025, 11:59 PM
 
+# Quiz for Module 1
+
+Will be on [eLC](https://elc.uga.edu/) from Monday to Wednesday at 11:59 PM.
+
+90 minutes long.
+
+May not have class on Wednesday 1/29.
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
