@@ -172,9 +172,10 @@ inverted version: (circle at tip)
 ## Combination al Logic Truth Tables
 
 ### Example
-An n variable boolean function can b represented by a truth tabler with 2^n rows
+An n variable boolean function can be represented by a truth tabler with $2^n$ rows
 
-| x | Y | Z |
+| X | Y | Z |
+| - | - | - |
 | 0 | 0 | 0 |
 | 0 | 0 | 1 |
 | 0 | 1 | 0 |
