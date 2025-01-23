@@ -185,4 +185,23 @@ An n variable boolean function can be represented by a truth tabler with $2^n$ r
 | 1 | 1 | 0 |
 | 1 | 1 | 1 |
 
+## Boolean expressions and functions
+
+### Example
+Find the values of the Boolean function represented by F(x,y,z) = xy + z'
+### Solution
+We use a Truth table to compute the value F(x,y,z)
+
+| x | y | z | xy | ~z | F(x,y,z) = xy + ~z |
+| - | - | - | -- | -- | :----------------: |
+| 1 | 1 | 1 | 1  | 0  | 1                  |
+| 1 | 1 | 0 | 1  | 1  | 1                  |
+| 1 | 0 | 1 | 0  | 0  | 0                  |
+| 1 | 0 | 0 | 0  | 1  | 1                  |
+| 0 | 1 | 1 | 0  | 0  | 0                  |
+| 0 | 1 | 0 | 0  | 1  | 1                  |
+| 0 | 0 | 1 | 0  | 0  | 0                  |
+| 0 | 0 | 0 | 0  | 1  | 1                  |
+
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
