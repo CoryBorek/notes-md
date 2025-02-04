@@ -203,5 +203,72 @@ We use a Truth table to compute the value F(x,y,z)
 | 0 | 0 | 1 | 0  | 0  | 0                  |
 | 0 | 0 | 0 | 0  | 1  | 1                  |
 
+## Laws of Boolean Algebra
+
+Identity: $a + 0 = a$
+
+Zero and One laws: $a + 1 = 1 and A * 0 = 0$
+
+Inverse: $A + ~A = 1 and A * ~A = 0$
+
+Commutative: $A + B = B + a and A * b = B * A$
+
+Associative: $A + (B + C) = (A + B) + C
+
+## Minterm and Maxterm
+### Minterm
+A minterm of n Boolean variables is the product of n literals in which each variabe appears exactly once.
+
+Each minterm has calue 1 for exactly one combination of values of variables
+
+A Boolean function can be written as a sum of minterms which is reffered to as the minterm expansion or a standard sum of products
+
+#### Examples
+ABC, A'BC, A'B'C', etc.
+
+### Maxterm
+
+Sum of n literals in which each variable apperas exactly once.
+
+Each maxterm has a value of 0 for exactly one combination of values of variables.
+
+A Boolean function can be written as a product of maxterms, which is referred to as a maxterm expansion or a standard product of sums.
+
+#### Examples
+A + B + C, A' + B + C, A'+ B'+ C'
+
+## Sum-of-products expansion
+
+Example find the sum of product expansion for the function F(x,y,z) = (x+y)~Z
+
+which gives us F(x,x,z) = xy~z + x~y~z + ~xy~z
+
+### Examples
+
+| x | y | z | xz' | yz | xz' + yz |
+| - | - | - | --- | -- | -------- |
+| 1 | 1 | 1 | 0   | 1  | 1        |
+| 1 | 1 | 0 | 1   | 0  | 1        |
+| 1 | 0 | 1 | 0   | 0  | 0        |
+| 1 | 0 | 0 | 1   | 0  | 1        |
+| 0 | 1 | 1 | 0   | 1  | 1        |
+| 0 | 1 | 0 | 0   | 0  | 0        |
+| 0 | 0 | 1 | 0   | 0  | 0        |
+| 0 | 0 | 0 | 0   | 0  | 0        |
+
+#### Minterm
+xyz + xyz' + xy'z' + x'yz
+
+#### Maxterm
+(x' + y + z')(x + y' + z)(x + y + z')(x + y + z)
+
+# Combinational Logic Circuit Design Steps
+1. Functional Description of the Logic Circut
+2. Derive a truth table
+3. Derive the Boolean expression
+  a. Sum of Products
+  b. Products of Sum
+4. Derive the logic circut (and-or implementation) (or-and implementation)
+
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
