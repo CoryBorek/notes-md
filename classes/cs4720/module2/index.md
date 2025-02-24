@@ -270,5 +270,28 @@ xyz + xyz' + xy'z' + x'yz
   b. Products of Sum
 4. Derive the logic circut (and-or implementation) (or-and implementation)
 
+## Let's design one
 
+Design a 3 input combinational logic circuit to detect whether or not precisely two of its inputs are 1. If yes, output one, else output 0.
+
+### Truth Table
+| x | y | z | Output|
+| - | - | - | ----- |
+| 1 | 1 | 1 | 0     |
+| 1 | 1 | 0 | 1     |
+| 1 | 0 | 1 | 1     |
+| 1 | 0 | 0 | 0     |
+| 0 | 1 | 1 | 1     |
+| 0 | 1 | 0 | 0     |
+| 0 | 0 | 1 | 0     |
+| 0 | 0 | 0 | 0     |
+
+### Sum of products
+xyz' + xy'z + x'yz
+
+### Product of Sums
+
+(x+y+z)(x+y+z')(x'+y+z)(x'+y'+z')
+
+ 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
