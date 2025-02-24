@@ -15,3 +15,4 @@ The following is a list of other pages on this site.
 
  - [Project Notes](%WEBPATH%/projects/)
  - [Class Notes](%WEBPATH%/classes/)
+ - [Note Backups](%WEBPATH%/backups/)
