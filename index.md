@@ -1,13 +1,11 @@
-# Welcome to my Markdown Website!
-This is my personal markdown site. Most things here are general notes that I don't mind being made available.
+# Welcome to my Notes Site!
+This is the notes section of my website, in where I write my personal notes on things. The entirety of this section of the website is written in Markdown.
 
 ## About Me
-I am a Computer Science Student at the University of Georgia, who is also trying to create a business.
+I am a Junior at the University of Georgia.
+For further details, see [https://coryborek.github.io/](https://coryborek.github.io/)
 
-### Github
-A lot of my code can be found on [My Github page!](https://github.com/CoryBorek/)
-
-### Website Source
+## Website Source
 The Markdown Source for this website is available at [https://github.com/CoryBorek/notes-md](https://github.com/CoryBorek/notes-md). If you ever notice any typos or issues, feel free to make a bug report there, or to submit a pull request!
 
 ## Pages
