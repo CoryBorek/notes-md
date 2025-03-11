@@ -59,4 +59,32 @@ Basic memory element table
 |1|0|0|1|
 |1|1|1|0|
 
+# Finite State Machine
+
+A Sequential syste, cannot be described within a truth table
+
+Instead, a sequential system is described as a finite-state machine (or often just a state machine)
+
+A finite-state machine has a set of states and two functions, called the next-state function and the output function
+
+
+# Example
+
+Control of a traffic light at an intessection of a north sourth rote, and an east west route
+
+
+Two inputs:
+ - NScar a car is over the detector placed in the front of the light on the north-sourth road
+ - EWCar: a car is over the detector placed in the front of the east-west road
+
+Two outputs:
+ - NSLite: when this signal is asserted, the light on the north-south road is green; when this signal is deasserted, the light on the north-south road is red
+ - EWLite: when this signal is asserted, the light obn the east-west road is green; when this signal is deasserted, the light on the east-west road is red.
+
+
+## Sample State Machine
+
+A finite statem achine can be implemented with a register to hold the current state and a block of combinational logic that computes the next-state function and the output function
+
+
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
