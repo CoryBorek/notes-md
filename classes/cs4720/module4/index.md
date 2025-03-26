@@ -47,7 +47,7 @@ D and CLK
 
 AND Gate
 
-Like SR CLip Flop with Clock, but one data input, and a NOT gate into one of the AND gates
+Like SR Flip Flop with Clock, but one data input, and a NOT gate into one of the AND gates
 
 Basic memory element table 
 
@@ -84,7 +84,7 @@ Two outputs:
 
 ## Sample State Machine
 
-A finite statem achine can be implemented with a register to hold the current state and a block of combinational logic that computes the next-state function and the output function
+A finite state machine can be implemented with a register to hold the current state and a block of combinational logic that computes the next-state function and the output function
 
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/)
