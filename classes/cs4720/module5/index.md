@@ -112,6 +112,34 @@ FP instructions operate only on FP registers
 Programs generally don't do integer ops on FP data or vice-versa.
 
 
+MIPS supports IEEE 754 single precision and double precision formats with
+
+Floating point addition. single (add.s) and addition, double (add.d)
+
+Subtraction (sub.s, sub.d)
+
+Multiplication (mul.s, mul.d)
+
+Division (div., div.d)
+
+## Floating point Comparision
+
+FP load and store instructions
+
+lwc1, swc1
+
+e.g. ldc1 $f8, 32($sp)
+
+
+Floating point comparison, single, and comparison, double (c.x.d), where x may be equal (eq), not equal (neq), less than (lt), less than or equal (le), greater than (gt), greater than or equal (ge)
+
+Floating point branch, trye (bc1t), and branch, flalse (bc1f)
+
+Example: c.lt.d $f0, $f2 #condition of $f0 < $f2
+  - bc1t exit # if condition is true, exit
+
+
+
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/) 
 
