@@ -140,6 +140,27 @@ Example: c.lt.d $f0, $f2 #condition of $f0 < $f2
 
 
 
+# FP Example: convert a temperature in F to C
+
+```c
+float f2c (float fahr) {
+    return ((5.0/9.0)*(fahr - 32.0));
+}
+```
+
+fahr in $f12, result in $f0, literals in global memory space
+
+## Compiled LEGv8 code
+```asm
+f2c:
+    lwc1, $f16, const5($gp) # $f16 = 5.0 (5.0 in memory)
+    lwc1 $f18,const9($gp)   # $f18 = 9.0 (9.0 in memory)
+    div.s $f16, $f16, $f18  # $f16 = 5.0 / 9.0
+    lwc1 $f18, const32($gp) # $f18 = 32.0
+    sub.s $f18, $f12, $f18  # $f18 = fahr - 32.0 
+    mul.s $f0, $f16, $f18   # $f0 = (5/9)*(fahr - 32.0)
+    jr $ra                  # return
+```
 
 ### [Back to CS4720](%WEBPATH%/classes/cs4720/) 
 
