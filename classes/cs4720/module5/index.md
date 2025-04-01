@@ -133,7 +133,7 @@ e.g. ldc1 $f8, 32($sp)
 
 Floating point comparison, single, and comparison, double (c.x.d), where x may be equal (eq), not equal (neq), less than (lt), less than or equal (le), greater than (gt), greater than or equal (ge)
 
-Floating point branch, trye (bc1t), and branch, flalse (bc1f)
+Floating point branch, true (bc1t), and branch, false (bc1f)
 
 Example: c.lt.d $f0, $f2 #condition of $f0 < $f2
   - bc1t exit # if condition is true, exit
