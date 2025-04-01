@@ -2,7 +2,7 @@
 
 # Multiply in MIPS
 
- Mips provides a separate pair o32-bitr registers to contain the 64 bit product, called Hi and Lo
+ Mips provides a separate pair of 32-bit registers to contain the 64 bit product, called Hi and Lo
 
  MIPS has two instructions
 
@@ -16,7 +16,7 @@
 
 Both instructions ignore overflow and division by zero
 
-Hi register contains the remainder, and o register contains teh quotient after the divide instruction
+Hi register contains the remainder, and Lo register contains the quotient after the divide instruction
 
 ### Example
 ```
