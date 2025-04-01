@@ -91,7 +91,7 @@ S = 1
 Fraction = 010000...0
 Exponent = 10000001 = 129
 
-x = (-1)^1 * (1 + 01)
+$x = (-1)^1 * (1 + 01)$
 
 # Floating-point Instructions in MIPS
 
@@ -101,9 +101,9 @@ Adjunct processor that extends the ISA
 
 Separate FP registers
 
-32 single-precision: $f0, $f1, ... $f31
+32 single-precision: `$f0, $f1, ... $f31`
 
-Paired for double-precision: $f0/$f1, $f2/$f3, ...
+Paired for double-precision: `$f0/$f1, $f2/$f3, ...`
 
 Release 2 of MIPS ISA supports 32 x 64 bit FP regs
 
@@ -128,15 +128,15 @@ FP load and store instructions
 
 lwc1, swc1
 
-e.g. ldc1 $f8, 32($sp)
+e.g. `ldc1 $f8, 32($sp)`
 
 
 Floating point comparison, single, and comparison, double (c.x.d), where x may be equal (eq), not equal (neq), less than (lt), less than or equal (le), greater than (gt), greater than or equal (ge)
 
 Floating point branch, true (bc1t), and branch, false (bc1f)
 
-Example: c.lt.d $f0, $f2 #condition of $f0 < $f2
-  - bc1t exit # if condition is true, exit
+Example: `c.lt.d $f0, $f2` #condition of `$f0 < $f2`
+  - `bc1t exit` # if condition is true, exit
 
 
 
@@ -148,7 +148,7 @@ float f2c (float fahr) {
 }
 ```
 
-fahr in $f12, result in $f0, literals in global memory space
+fahr in `$f12`, result in `$f0`, literals in global memory space
 
 ## Compiled LEGv8 code
 ```asm
