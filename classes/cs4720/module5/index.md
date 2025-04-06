@@ -1,5 +1,31 @@
 # Module 5
 
+# Arithmetic for Computers
+
+Operations on integers
+
+Addition and Subtraction, Multiplication and Division.
+
+Dealing with Overflow.
+
+## Review: Basic Hardware
+
+AND gate,
+
+OR gate,
+
+NOT gate,
+
+Multiplexor
+
+Half Adder: S = x'y + xy', C = xy
+
+# Overflow
+
+Overflow = Carry in to most significant bit XOR carry our of most significant bit.
+
+
+
 # Multiply in MIPS
 
  Mips provides a separate pair of 32-bit registers to contain the 64 bit product, called Hi and Lo
