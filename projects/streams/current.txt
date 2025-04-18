@@ -1,8 +1,6 @@
-# April 18, 2025
+# April 18th 2025
 
- - [ ] Stream Intro
+ - [ ] Introduction
  - [ ] Get on the server
- - [ ] Last Minute Checks
- - [ ] Open the Server
+ - [ ] Open the server
  - [ ] Open Creative
- - [ ] Hang out with the Community
