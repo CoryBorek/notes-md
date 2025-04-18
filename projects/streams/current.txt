@@ -1,0 +1,6 @@
+# April 18, 2025
+
+ - [ ] Stream Intro
+ - [ ] Last Minute Checks
+ - [ ] Open the Server
+ - [ ] Open Creative
