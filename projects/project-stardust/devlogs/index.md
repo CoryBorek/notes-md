@@ -10,13 +10,13 @@ It is available for people to see, as I will most likely condense things down in
 With that warning in place, below are the articles that you can read.
 
 ## Table Of Contents
- - ### [10/8/2024 - First day of entrepreneurship work](%WEBPATH%/projects/project-stardust/devlogs/2024-10-8)
- - ### [10/9/2024 - Emails, Messages, and Meetings](%WEBPATH%/projects/project-stardust/devlogs/2024-10-9)
- - ### [10/13/2024 - Appointments, Naps, Setups, and Messages](%WEBPATH%/projects/project-stardust/devlogs/2024-10-13)
- - ### [10/14/2024 - Meeting Recap](%WEBPATH%/projects/project-stardust/devlogs/2024-10-14)
- - ### [10/19/2024 - Finances, Goals, and Outreach](%WEBPATH%/projects/project-stardust/devlogs/2024-10-19)
+  - ### [10/8/2024 - First day of entrepreneurship work](%WEBPATH%/projects/project-stardust/devlogs/2024-10-8)
+  - ### [10/9/2024 - Emails, Messages, and Meetings](%WEBPATH%/projects/project-stardust/devlogs/2024-10-9)
+  - ### [10/13/2024 - Appointments, Naps, Setups, and Messages](%WEBPATH%/projects/project-stardust/devlogs/2024-10-13)
+  - ### [10/14/2024 - Meeting Recap](%WEBPATH%/projects/project-stardust/devlogs/2024-10-14)
+  - ### [10/19/2024 - Finances, Goals, and Outreach](%WEBPATH%/projects/project-stardust/devlogs/2024-10-19)
   - ### [10/21/2024 - Recap and Pitches](%WEBPATH%/projects/project-stardust/devlogs/2024-10-19)
-   - ### [10/28/2024 - Last meeting.](%WEBPATH%/projects/project-stardust/devlogs/2024-10-19)
-
+  - ### [10/28/2024 - Last meeting.](%WEBPATH%/projects/project-stardust/devlogs/2024-10-19)
+  - ### [5/27/2025 - New Beginning](%WEBPATH%/projects/project-stardust/devlogs/2025-05-27)
 
 [Back to Index](%WEBPATH%/projects/project-stardust/)
