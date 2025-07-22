@@ -10,5 +10,6 @@ I am currently making a YouTube series on it.
 
 You can watch the series [here](https://youtube.com/playlist?list=PLGgPytYiDzs6IZfbJJkVredd_K5ytR9iB&si=ddoDWX7K0rLe6llM)
 
+For my notes on the series, look [here](%WEBPATH%/projects/overseasons-smp/series/).
 
 ### [Back to Projects](%WEBPATH%/projects/)
