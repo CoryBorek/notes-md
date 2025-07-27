@@ -2,8 +2,9 @@
 
 ## TODO:
   - [x] Load into TerraFirmaGreg
-  - [x] Copper Mining
-  - [x] Look at Quest Book
-  - [x] Make Charcoal
-  - [x] Prepare Leather Process
-  - [x] Make first Copper Double Ingot
+  - [x] Cut down some trees
+  - [x]Make some supports
+  - [x] ake Some Charcoal
+  - [x] Mine for a ton more Copper
+  - [x] Make more double ingots
+  - [ ] Make some leather
