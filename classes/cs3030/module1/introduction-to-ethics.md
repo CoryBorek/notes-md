@@ -212,4 +212,56 @@ By definition, does not respect the ethical point of view
 
 Conclusion: Not a workable ethical theory
 
+## Kantianism
+
+### Critical Importance of Good Will
+Good will: the desire to do the right thing
+
+Immanuel Kant: Only thing in the world that is good without qualification is good will.
+
+Reason should cultivate the desire to do the right thing.
+
+### Categorical Imperitive (1st formulation)
+
+Act only from moral rules that you can at the same time will to be universal moral laws.
+
+### Categorical Imperitive (2nd formulation)
+
+Act so that you treat both yourself and other people as ends in themselves and never only as means to an end.
+
+This is usually an easier formulation to work with than the first formulation of the Categorical Imperitive
+
+### Case for Kantianism
+
+Treats all persons as moral equals
+
+Gives all people moral worth as rational, autonomous beings
+
+Holds everyone to the same standard
+
+Produces universal moral guidelines
+
+### Perfect and Imperfect duties
+
+Perfect duty: duty obliged to fulfiill without exception 
+ - Example: telling the truth
+
+Imperfect duty: duty obliged to fulfill in general, but not in every instance
+ -  Example: Helping others
+
+
+### Case against Kantianism
+
+ Sometimes no rule adequately characterizes an action
+
+ Sometimes there is no way to resolve a conflict between rules
+   - In a conflict between a perfect duty and an inperfect duty, perfect duty prevails
+
+   - In a conflict between two perfect duties, no solution
+
+Kantianism allows no exceptions to perfect duties
+
+Conclusions: Despite weaknesses, a workable ethical theory
+
+
 ### [Back to Module 1](%WEBPATH%/classes/cs3030/module1/) 
