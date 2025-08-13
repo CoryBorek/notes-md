@@ -263,5 +263,92 @@ Kantianism allows no exceptions to perfect duties
 
 Conclusions: Despite weaknesses, a workable ethical theory
 
+## Act Utilitarianism
 
+### Principle of Utility
+
+Jeremy Bentham and John Stuart Mill
+
+An action is good if its benefits exceeds its harms
+
+An action is bad if its harms exceed its benefits
+
+Utility: tendency of an object to produce happiness or prevent unhappincess for an individual or a community.
+
+Happiness = advantage = benefit = good = pleasure
+
+Unhappiness = disadvantage = cost = evil = pain
+
+Greatest Happiness Principle: An action is right (or wrong) to the extend that it increases (or decreases) the total happiness of the affected parties
+
+### Act Utilitarianism
+
+Utilitarianism:
+
+ - Morality of an action has nothing to do with intent
+ - Focuses on the consequences
+ - A consequentialist theory
+
+Act Utilitarianism:
+- Add up change in happiness of all affected beings
+- Right action to take: one that maximizes the sum
+
+
+### Bentham: Weighing plreasure/pain
+
+Intensity
+Duration
+Certainty
+Propinquity
+Fecundity
+Purity
+Extent
+
+### Case for Act Utilitarianism
+
+Focuses on Happiness
+
+Down to earth (practical)
+
+Comprehensive
+
+### Case against Act Utilitarianism
+
+Unclear whom to include in calculations and how far out into the future to consider
+
+Too much work
+
+Ignores our innate sense of duty
+
+We cannot predict consequences with certainity
+
+Susceptible to the problem of moral luck
+
+Conclusion: Overall, a workable ethical theory
+
+## Rule Utilitarianism
+
+### Applying principle of Utility to rules
+
+We ought to adopt moral rules which, if followed by everyone, will lead to the greatest increase in total happiness
+
+Act utilitarianism applies Principle of Utility to individual actions
+
+Rule utilitarianism applies principle of utility to moral rules
+
+### Case for Rule Utilitarianism
+
+Not every moral decision requeres performing utilitarian calculus
+
+Moral rules survive exceptional situations
+
+Avoids the problem of moral luck
+
+Reduces the problem of bias
+
+Appeals to a wide cross-section of society
+
+### Case against utilitarianisms in general
+
+All consequences must be measured on a single scale
 ### [Back to Module 1](%WEBPATH%/classes/cs3030/module1/) 
