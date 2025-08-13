@@ -1,2 +1,2 @@
 # Low To High Level
-Low To High Level is a YouTube series I started, in which I create a custom computer from scratch
+Low To High Level is an academic series of articles and videos in which we build upon the foundational blocks of Computer Science, in order to build a functional computer.
