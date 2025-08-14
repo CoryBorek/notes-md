@@ -104,5 +104,6 @@ Please compelte without using external resources
 
 Due 8/20
 
+Link: https://tools.lassoeducation.org/confirmation
 
 ### [Back to PHYS1111](%WEBPATH%/classes/phys1111/)
