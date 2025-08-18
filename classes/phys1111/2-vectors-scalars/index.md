@@ -157,5 +157,80 @@ Make sure you use degrees / radians when the problem requires each one.
 
 Signs of the components relate to which quadrant the vector points into from the origin.
 
+## Hint: Jogging Distance:
+A Jogger runs 12 m due west, then changes direction for the second leg of her run. At the end of the run, she is 306 m away from the starting point at an angle of 16 degrees north of west. What is the length of her second displacement?
+
+
+Use a "backwards" coordinate system. Then North of west is the "standard" angle we use.
+
+# Adding and Subtracting Vectors
+
+## Graphically
+One way we can add and subtract vectors is graphically.
+
+Place the tail of the second vector at the head of the first, and so on. The vector sum points from the tail of the first vector, to the head of the last vector.
+
+Vectors can be moved to other locations without changing them, so long as their magnitude and direction are preserved.
+
+## Using Components
+
+Find the components of each vector to add.
+
+Add up all the x and y components separately.
+
+Find the magnitude and direction of the resultant vector.
+
+
+$\vec C = \vec A + \vec B$
+
+$C_x = A_x + B_x$
+
+$C_y = A_y + B_y$
+
+$|\vec C| = \sqrt{C_x^2 + C_y^2}$
+
+## Various Notations
+$\vec C = \vec A + \vec B$
+
+
+$C_x + A_x + B_x$
+
+$C_y + A_y + B_y$
+
+$\vec C = (A_x + B_x)\hat{x} + (A_y| B_y)\hat{y}$
+
+$$
+\begin{bmatrix}
+C_x \\ C_y
+\end{bmatrix}
+=
+\begin{bmatrix}
+A_x \\ A_y
+\end{bmatrix}
++
+\begin{bmatrix}
+B_x \\ B_y
+\end{bmatrix}
+$$
+
+## Subtracting Vectors
+
+The negative of a vector is a vectior with the same magnitude pointing in the oppisite direction
+
+
+
+$\vec{A} - \vec A = 
+\vec a + (-\vec A) = 0$
+
+Thus, to subract one vector from another, reverse the direction of he subtracted vector and add the result to the first vector.
+
+### Component-wise subtraction
+$\vec C = \vec A - 
+\vec B$
+
+$C_x = A_x - B_x$
+
+$C_y = A_y - B_y$
+
 
 ### [Back to PHYS1111](%WEBPATH%/classes/phys1111/)
