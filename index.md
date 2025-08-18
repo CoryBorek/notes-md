@@ -9,8 +9,5 @@ For further details, see [https://coryborek.github.io/](https://coryborek.github
 The Markdown Source for this website is available at [https://github.com/CoryBorek/notes-md](https://github.com/CoryBorek/notes-md). If you ever notice any typos or issues, feel free to make a bug report there, or to submit a pull request!
 
 ## Pages
-The following is a list of other pages on this site.
+All pages can be accessed via the sidebar, which you can access by pressing the button in the top right.
 
- - [Project Notes](%WEBPATH%/projects/)
- - [Class Notes](%WEBPATH%/classes/)
- - [Note Backups](%WEBPATH%/backups/)
