@@ -214,7 +214,7 @@ What makes a language a language?
  Imagine this is an English word: *clattabatter*
  - Can you tell the meaning?
 
- Form $\ne$ meaning. Even for signed languages.
+ Form $ \ne $ meaning. Even for signed languages.
 
  Sign languages still have words for discussion things that you don't necessarily know what that would look like.
 
