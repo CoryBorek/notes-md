@@ -244,7 +244,7 @@ Don't make up data. Being honest will help you learn the material better.
 
 Do not use AI such as ChatGPT.
 
-## honors option
+## Honors Option
 
 There is an honors option for this course.
 
