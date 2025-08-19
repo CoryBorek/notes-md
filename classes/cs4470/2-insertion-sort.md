@@ -338,5 +338,192 @@ When the algorithm is terminated, our i is n+1
 A[1...n+1 - 1]
 A[1...n] is sorted.
 
+How does showing these three steps mean that the algorithm is correct?
+
+Initialization is the equivilent of showing that the base case is true.
+
+Maintenance shows that i is correct, and the solution at i+1 is correct.
+
+Same as $P(k) = True \implies P(k+1) = True$
+
+Termination does not affect it, just an extra step to make sure that it works.
+
+# Another Example (homework)
+1. Write the pseudocode to find the maximum number in an array (iterative function)
+2. Use loop invariant to show the correctness of the algorithm.
+
+# Designing Algorithms
+Insertion sort uses an incremental approahc.
+
+## Divide and conquer approach
+ - Divide the problem into a number of subproblems that are smaller instances of the same problem
+
+ - Conquer the subproblems by solving them recursively. If the subproblem sizes are small enough, however, just solve the subproblems in a straightforward manner
+
+ - Combine the solutions to the subproblems into the solution for the original problem
+
+ - Example: Merge Sort algorithm
+
+### Example
+Say we are trying to sort an array that is of n= 100.
+
+We can only solve it in $n^2$ time. $n^2 = (100)^2 = 10,000$
+
+We can divide it into size fifty, and then sort it.
+
+Then we can sort it using the same algorithm
+
+We merge it in the most efficient way possible.
+
+Keep a pointer at the first element in either array,
+
+Compare the smallest one, and copy the smallest into it and move the pointer up in the array.
+
+Keep doing that until both arrays are empty.
+
+This is called the combine step.
+
+The cost of the merge step is n-1 comparisons.
+
+Sorting the original is $50^2 + 50^2 + 100 = 2500 + 2500 + 100 = 5100$
+
+This reduces the cost of the algorithm by nearly half.
+
+Each divide step will help reduce it.
+
+## Merge Sort
+
+Merge sort divides until we have multiple arrays of size 1.
+
+As soon as that happens, we start merging the data together.
+
+Each of these will get the array to be merged all the way back.
+
+If we can divide and conquer, our implementation is generally going to be a recursive function.
+
+```java
+// Recursive merge sort algorithm
+
+void MergeSort(ItemType[] values, int first, int last)
+// Pre: first <= last
+// Post: Array values[first...last] sorted into
+// ascending order.
+{
+  if (first < last)
+  {
+    int middle = (first + last) / 2;
+    MergeSort(values, fist, middle);
+    MergeSort(values, middle+1, last);
+
+    // bnow merge two subarrays
+    // values[first ... middle] with
+    // values[middle + 1 ... last]
+
+    Merge(values, first, middle, middle+1, last);
+  }
+}
+```
+
+How do we find the time?
+
+Write the recurrence relation and use substitution method, tree method, and master theorem.
+
+Complexity of a recursive function is the same as the number of recursive calls.
+
+### What is a recurrence relation?
+This wil be discuessed more during Chapter 4
+
+$5! = 5*4*3*2*1$
+
+$5! = 5*4!$
+
+Each of these is a case.
+
+For example
+
+```c
+void factorial(int n) {
+  if (n == 0)
+    return 1;
+  else
+    return n*factorial(n-1);
+}
+```
+
+T(n) is the cost complexity.
+
+The number of recursive calls.
+
+We generally say that at the top, it is T(n).
+
+It's the cost of the base case + the cost of the recursive case.
+
+$T(n) = 1 + T(n-1)$
+
+This is our recurrence relation. It is a mathematical notation for a recursive function.
+
+We will learn in chapter 4 that there is
+
+ - Substitution Method,
+ - Tree Method
+ - Master Theorem
+
+ which we can use to solve this recurrence relation.
+
+ For that to work, we want to find a value for T(n) that is not recursive.
+
+ This will be on a future exam.
+
+ Recursive functions will be used in all chapters.
+
+ Whenever we try to analyze this function, we will use this.
+
+ In Data Structures, we always used master theorem. We can do the same here.
+
+ ### Merge Sort's Recurrence Relation
+
+ Cost at the top is $T(n)$
+
+ Our base case is not explicit, When the first number = last number, we will return. This is implied with the if statement.
+
+ In each of the calls, we are making two recursive calls that are half of the amount
+
+Our recurrence relation is $T(n) = 2T(n/2) + n + 1$
+
+When we solve this, it will be $O(n\log n)$.
+
+In the merge case we will put the result into a temporary array, and copy it back to the original array.
+
+```cpp
+template<class ItemType>
+void Merge(ItemType values[], int leftFirst, int leftLast, int rightFirst, int rightLast)
+{
+  ItemType tempArray[MAX_ITEMS];
+  int index = leftFirst;
+  int safeFirst = leftFirst;
+
+  while ((leftFirst <= leftLast) && (rightFirst <= rightLast))
+  {
+    if (values[leftFirst] < values[rightFirst])
+    {
+      tempArray[index] = values[leftFirst];
+      leftFirst++;
+    } else {
+      tempArray[index] = values[rightFirst];
+      rightFirst++;
+    }
+    index++;
+
+  }
+
+  while (leftFirst <= leftLast)
+  {
+    leftFirst++;
+    index++;
+  }
+
+  
+}
+```
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
