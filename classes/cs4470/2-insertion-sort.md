@@ -154,6 +154,11 @@ for j = 2 to A.length
   A[i+1] = key
 
 ```
+**Note:** Arrays in pseudocode / math starts at index 1. In an actual programming language, it will be 0.
+
+**Note:** A.length = A[n] `j = 2 to n` is `A[1...n]` where `A[n]` is the last element.
+
+We may have an assignment in where we get an item where the index starts at 1.
 
 What happens when the data is already sorted?
 
@@ -184,5 +189,65 @@ So we can guess that there are n/2 comparisions per iteration
 so $\frac{n}{2} - (n-1)$ is closer to $O(n^2)$
 
 Closer to worst case on average.
+
+A lot of the material that we will see in future classes, will be mathematically involved.
+
+The lecture may be easier than solving on your own.
+
+Make sure to review the content.
+
+# Loop Invariants
+
+## Concepts
+### Initialization
+Is true prior to first iteration?
+
+### Maintenance
+If iti s true at start of iteraition, it remains true at the end of iteration
+
+### Termination
+Upon termination, it contributes to showing algorithm is correct
+
+## What is it?
+For CS Majors, we can check the algorithm by running it.
+
+To truly prove that it works for *all* cases, we can prove it with math, using induction.
+
+We can show the correctness of an iterative algorithm.
+
+This does not apply to a recursive function.
+
+All of our examples will be iterative.
+
+Recursive functions (chapter 4) will be discussed in a different way (recursive method, tree method, master theorem, recurrence relation)
+
+## Principle of Induction
+
+### Principle of Mathematical Induction
+To prove that $P(n)$ is true for all positive integers $n$, we complete these steps
+
+ - *Basis Step*: Show that $P(1)$ is true.
+ - *Inductive Step* Show that $P(k) \rightarrow P(k+1)$ is trye for all positive integers $k$.
+
+ To complete the inductive step, assuming the *inductive hypothesis* that $P(k)$ holds for an arbitrary integer k, show that must $P(k+1)$ be true
+
+ 1. Show that base case is true $\implies P(1)$ is true
+ 2. Assume the problem is true at some k $\implies P(k)$ is true
+ 3. Show that problem is true at k+1 $\implies P(k+1)$ is true
+
+$P(k)$ is trye wgeb P(k+1) is also true if step 2 and 3 holds
+
+Show that P(1) is true
+
+Then P(2)
+
+Then P(3)
+
+Then P(4)
+
+...
+
+then P(n)
+
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
