@@ -249,5 +249,94 @@ Then P(4)
 
 then P(n)
 
+## Examples
+
+Show that $\sum_{i=1}^{n} = 1 + 2 + ... + n = n(n+1)/2$
+
+1. Show that base case is true
+
+$\sum_{i=1}^{1} = 1 = 1(1+1)/2 = 1(2)/2 = 2/2 = 1$
+
+Base case holds.
+
+2. Assume P(k) is true
+$\sum_{i=1}^{k} = 1+2+...+k = k(k+1)/2$
+
+3. Show that P(k+1) is true
+
+$\sum_{i=1}^{k+1} = 1+2+...+(k+1) = (k+1)(k+2)/2$
+
+$k(k+1)/2 + k+1 = (k+1)(k+2)/2$
+
+$k(k+1)/2 + (k + 1)$
+
+$(k+1)[k/2 + 1] = (k+1)(k+2)/2$
+
+$(k+1)[k/2 + 2/2] = (k+1)(k+2)/2$
+
+$(k+1)(k+2)/2 = (k+1)(k+2)/2 $
+
+## Define Loop Invariant
+Solution looks at step i.
+
+A[1...n] is input
+
+Let's look at insertion sort
+
+`|36| 24 10 6 12`
+
+After first iteration
+
+`|10 24 36| 6 12`
+
+`6` is the ith item
+
+everything up to i-1 is sorted.
+
+Our insertion is that A[1...i-1] is sorted.
+
+Our key is A[i], and we can say that A[i+1...n] is unsorted
+
+### Initilization
+Before the start iteration, 
+
+We need to show that A[1] is sorted.
+
+i = 2 at initilization, so we will check
+
+A[1...2-1] = A[1] is sorted.
+
+### Maintenance.
+We need to see that our loop invarient is correct at both the beginning and the end of the ith iteration
+
+A[1...i-1] is sorted.
+
+We need to show that the loop invarient at the end of iteration i is i.
+
+`36 24 10 20 12`
+
+
+`| 10 24 36 /* i - 1*/ | 20 /* i */ 12`
+
+our key goes to index k.
+
+we can assume that A[1..k-1] is sorted
+
+A[k] is in its sorted location.
+
+From k to i is also sorted.
+
+From A[k+1..i] is also sorted.
+
+We know that A[1...k] is sorted, A[k] is sorted, and A[k+1...i] is sorted
+
+With all of that, we can assume that A[1...i] is sorted.
+
+### Termination
+When the algorithm is terminated, our i is n+1
+
+A[1...n+1 - 1]
+A[1...n] is sorted.
+
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
