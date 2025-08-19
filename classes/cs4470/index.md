@@ -1,6 +1,7 @@
 # CS 4470 - Algorithms
 
-## Table of Contents
- - [1 - Introduction](%WEBPATH%/classes/cs4470/1-intro/)
- - [2 - Insertion Sort](%WEBPATH%/classes/cs4470/2-insertion-sort/)
+### Prerequisites
+- CSCI 2720 or CSCI 2725 - Data Structures (heavily important)
+- CSCI 2670 - Theory of Computation (only one chapter is related)
+
 ### [Back to Classes](%WEBPATH%/classes/)
