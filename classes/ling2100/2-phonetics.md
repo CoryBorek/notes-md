@@ -226,5 +226,83 @@ Produced with the use of the glottis
 
 Common in British English with words like water or British
 
+## Manner of Articulation
+
+Has to do with the configuration/interaction of the articulators and how they shape the airflow while you speak
+
+Articulators = Things in your maouth that move when you talk (lower jar, lips, tongue, velum , etc.)
+
+How does your mouth shape the airflow to make different types of noises.
+
+### Stop (Plosives)
+
+Produced when airflow is completely stopped and suddenly released in a burst after.
+
+In English: [d] in dog
+
+### Fricatives
+
+Produced when the airflow is highly restricted but not completely stopped.
+
+[f] in fish
+
+[v] in vulture
+
+[$\theta$] in thigh
+
+and more
+
+### Affricates
+
+Produced as a combination of a stop and a fricative
+
+Burst of air is a fricitave
+
+In English
+
+ch as in chicken
+
+d3 as in gym or judge
+
+### Nasals
+
+Prodcuced when air is stopped in the oral cavity and redirected through the nasal cavity.
+
+Raising the velum blocks air from the nasal cavity
+
+English:
+
+[n] in night
+
+[m] in might
+
+[n with a hook] as in si*ng*
+
+### Approximants
+
+Produced with very little obstruction and no real frication
+
+Subdivided into liquids and glides
+
+[l] as in like (lateral sound)
+
+[upside down r] in rap (rhotic sound, called a rhotic apprximate)
+
+Glides: produced with less restriction than liquids
+
+[j] in yum
+
+[w] in wind.
+
+### Tap
+One articulation quickly toughes another
+
+Similar to the movement for a stop, but there is no buildup of air as it is stopped
+
+No burst of air after
+
+[upside down j] in bi**tt**er
+
+
 
 ### [Back to ling2100](%WEBPATH%/classes/ling2100/)
