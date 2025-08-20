@@ -106,4 +106,12 @@ Due 8/20
 
 Link: https://tools.lassoeducation.org/confirmation
 
+# Student Drop in Hours
+Mondays 1:30 AM - 12:30 PM
+
+Wednesdays 2:45 - 3:45 PM
+
+Physics 236.
+
+
 ### [Back to PHYS1111](%WEBPATH%/classes/phys1111/)
