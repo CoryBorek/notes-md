@@ -24,6 +24,32 @@ Big theta is the intersection
 
 $\Theta(g(n)) = $ { $f(n) : \exists$ positive constants $c_1, c_2,$ and $n_0$, such that $\forall n \ge n_0$, we have $o \le c_1g(n) \le f(n) \le c_2g(n)$ }.
 
+# Little O
+o-notation to denote an upper bound that is not asymptomatically tight.
+
+$o(g(n)) = $ { $f(n):$ for any constant $c > o$ there is a constant $n_o > 0$ such that $o \le f(n) \lt cg(n)$ for all $n \ge n_o $ }.
+
+For example. $2n = o(n^2)$ but $2n^2 \ne o(n^2)$
+
+$\lim_{n \rightarrow \infin} \frac{f(n)}{g(n)} = 0 \implies f(n) \in o(g(n))$
+
+### example
+$\lim_{n \rightarrow \infin} = \frac{2n^2 + 1}{n^2} = \frac{2n_2}{n^2} + \frac{1}{n^2} = \lim_{n \rightarrow \infin} 2 + \frac{1}{n^2} = 2 \ne 0 $
+
+In the real world you never want the function to be over $n^2$.
+
+if f(n) = n and f(n) is in n^2, then $o(n^2)$ for both
+
+# Little $\omega$
+
+$\omega$ notation is $\Omega$ as o-notioan is to O-notation
+
+## Example
+$n^2/2 = \omega(n)$ but $n^2 \ne \omega(n^2)$
+\
+In $\omega$ notation, the function f(n) becomes arbitrarily large relative to g(n) as n approaches infinity.
+
+$\lim_{n \rightarrow \infin} \frac{f(n)}{g(n)} = \infin \implies f(n) \in \omega g(n)$
 # Real world situation
 
 We aren't exactly interested in the function itself. More so the upper and lower bounds.
@@ -39,42 +65,46 @@ We previously discussed that the best case is $n\log n$.
 That means that complexity belongs to $\Omega (n\log n)$,
 
 
-# Loop invariant problem
+# Properties of a Log function
 
-```
-prodecude max(A[]: array)
-maximum = A[1]
-for (i = 2 to n)
-{
-    if (A[i] > maximum)
-        maximum = A[i]
-    return maximum
-}
-```
+1. $\log_aa = 1$
+2. $\log_aa^x = x$
+3. $\log(ab) = \log a + \log b$
+4. $\log_ab^x = x\log_ab$
+5. $a^{\log_ax} = x$
+6. $\log_ax = \frac{\log_bx}{\log_ba}$
 
-For insertion sort, A[1.....i-1] is sorted.
+# Some notation for logs
 
-maximum = max(a[1.......i-1]);
+1. $\lg n = \log_2 n$
+2. $\ln n = \log_en$
+3. $\log n = \log_{10} n$
+4. $\lg^k n = (\lg n)^k$
+5. $\lg\lg n = \lg(\lg n)$
+6. $\lg n + k = (\lg n) + k \ne \lg (n + k)$
 
-### Initialization
 
-i = 2, max(A[1...2-1], A[1]) = max(A[1]) = A[1].
+# Algorithm speed
 
-### Maintenance
-At the beginning of the the ith iteration, maximumm = max(A{i...i-1})
+| n | $(\log n)^2$ | $\log n$ | $\log \log n$ |
+| - | -| - | -|
+| 2 | $(1)^2$ = 1 | 1 | 0 |
+| 4 | $(2)^2$ = 4 | 2 | 1 | 
+| 16 | $(4)^2$ = 16 | 4 | 2 |
+| 128 | $(8)^2$ = 64 | 8 | 3 |
 
-At the end of the ith iteration, maximum = max(A[1...i])
+# Floor an celing
 
-At the end of the ith iteration, 
+1. 
+$\lfloor 3.5 \rfloor = 3$
 
-If A[I] is bigger than max, then maximum = max(A[i], maximum)
+$ - \lfloor 3.5 \rfloor = \lceil - 3.5 \rceil$
 
-maximum = max(A[i], max(A[1...i-1])).
+$ -3, -3$
 
-= max(A[1....i])
+2. $\lfloor n + x \rfloor = n + \lfloor x \rfloor$ where n is a natural number. $(1, 2, 3, 4, ...)$
 
-## Termination
-
+Floor methods, are growing linearly, so $O(n)$.
 
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
