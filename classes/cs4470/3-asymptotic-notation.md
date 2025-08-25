@@ -39,6 +39,42 @@ We previously discussed that the best case is $n\log n$.
 That means that complexity belongs to $\Omega (n\log n)$,
 
 
-  
+# Loop invariant problem
+
+```
+prodecude max(A[]: array)
+maximum = A[1]
+for (i = 2 to n)
+{
+    if (A[i] > maximum)
+        maximum = A[i]
+    return maximum
+}
+```
+
+For insertion sort, A[1.....i-1] is sorted.
+
+maximum = max(a[1.......i-1]);
+
+### Initialization
+
+i = 2, max(A[1...2-1], A[1]) = max(A[1]) = A[1].
+
+### Maintenance
+At the beginning of the the ith iteration, maximumm = max(A{i...i-1})
+
+At the end of the ith iteration, maximum = max(A[1...i])
+
+At the end of the ith iteration, 
+
+If A[I] is bigger than max, then maximum = max(A[i], maximum)
+
+maximum = max(A[i], max(A[1...i-1])).
+
+= max(A[1....i])
+
+## Termination
+
+
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
