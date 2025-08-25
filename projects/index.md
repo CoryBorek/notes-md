@@ -11,7 +11,7 @@ All of them can be accessed via the sidebar, but some better descriptions can be
 
 ### Content
  - ### [Overseasons SMP](%WEBPATH%/projects/overseasons-smp/), a Minecraft SMP Server that I play and record on. 
- - ### [BoxSMP](%WEBPATH%/projects/boxsmp/), a Minecraft SMP Server with a group of content creators
+ - ### [Boxcraft SMP](%WEBPATH%/projects/boxcraft-smp/), a Minecraft SMP Server with a group of content creators
  - ### [Low To High Level](%WEBPATH%/projects/low-to-high-level/), My YouTube channel in where we build a computer from the lowest level to the modern day.
 
  ## Inactive Projects
