@@ -37,6 +37,8 @@ One example is when we were talking about the best case complexity for compariso
 We previously discussed that the best case is $n\log n$.
 
 That means that complexity belongs to $\Omega (n\log n)$,
+
+
   
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
