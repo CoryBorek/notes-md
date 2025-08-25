@@ -1,5 +1,5 @@
  - [Home](%WEBPATH%/classes/cs4470/)
  - [1 - Introduction](%WEBPATH%/classes/cs4470/1-intro)
  - [2 - Insertion Sort](%WEBPATH%/classes/cs4470/2-insertion-sort)
-
+ - [3 - Asymptotic Notation](%WEBPATH%/classes/cs4470/3-asymptotic-notation)
  ### [Back to Classes](%WEBPATH%/classes/)

@@ -494,6 +494,43 @@ When we solve this, it will be $O(n\log n)$.
 
 In the merge case we will put the result into a temporary array, and copy it back to the original array.
 
+We want to know the complexity of the code, but don't know everything.
+
+We write the recurrance relation, and use either the substitution method, tree method, and master theorem to find it.
+
+Substitution method, Tree method use math.
+
+Master Theorem can estimate by looking at constants.
+
+Further discussion in chapter 4.
+
+We can create a trial problem to test it.
+
+1(8) -> 2(4) -> 4(2) -> 8(1)
+
+When we merge our item, our cost of the function at each level is n.
+
+Number of levels are n -1.
+
+in our case 8 cost, 3 levels
+
+total cost is 8 * 3, 3 is $\log 8$, so $8 \log 8$ or $n \log n$.
+
+With merge sort, best case for cost is $n/2$, worst case is $n$.
+
+best case is an order of $\frac{n}{2}\log n$ worst case is $n\log n$
+
+average case is $\frac{3n}{4}\log n$ or $n\log n$.
+
+This means that our performance will not change in time.
+
+The only drawback is that we use a lot of extra memory.
+
+If memory is not a constraint for this, then use merge sort.
+
+
+### Implementation for merge function
+
 ```cpp
 template<class ItemType>
 void Merge(ItemType values[], int leftFirst, int leftLast, int rightFirst, int rightLast)
@@ -522,8 +559,31 @@ void Merge(ItemType values[], int leftFirst, int leftLast, int rightFirst, int r
     index++;
   }
 
-  
+
 }
 ```
+
+# Homework 1
+
+First homework is posted, no due date given yet.
+
+Homework should be done in LaTeX.
+
+The homework is written in LaTeX. 
+
+A Tutorial is posted on eLC.
+
+A template is also given in there.
+
+You will be able to write research papers / thesis
+
+
+Dr. Meena doesn't make slides nowadays, but usually writes it in LaTeX.
+
+There will be a 5% bonus for writing the homework in LaTeX.
+
+
+
+
 
 ### [Back to CS4470](%WEBPATH%/classes/cs4470/)
