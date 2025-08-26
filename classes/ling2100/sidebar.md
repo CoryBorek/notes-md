@@ -1,3 +1,3 @@
-- [Home](%webpath%/classes/ling2100/)
-- [1 - Intro to Language](%webpath%/classes/ling2100/1-intro-to-language)
-- [2 - Phonetics](%webpath%/classes/ling2100/2-phonetics)
+- [Home](%WEBPATH%/classes/ling2100/)
+- [1 - Intro to Language](%WEBPATH%/classes/ling2100/1-intro-to-language)
+- [2 - Phonetics](%WEBPATH%/classes/ling2100/2-phonetics)
