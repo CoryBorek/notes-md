@@ -176,5 +176,30 @@ This is the case when $c > k$.
 
 the constraint on n is when $\log n > 1, $ or $n \ge 2$.
 
+This also works for Big $\Omega$.
 
+We need to show that $T(n) \ge n \log n + (something)$
+where that something is positive.
+
+guess:
+
+$T(n) \ge cn\log n$
+
+$T(n/2) \ge c\frac{n}{2}\log{\frac{n}{2}}$
+
+$T(n) \ge 2(c\frac{n}{2})\log(\frac{n}{2}) + kn$
+
+$ = cn\log(n/2) + kn$
+
+$ = cn[\log n - \log_2 2] + kn$
+
+$ = cn[\log n - 1] + kn$
+
+$ = cn\log n - cn + kn$
+
+$= cn\log n + n(k - c)$
+
+we want k - c > 0, so k > c
+
+we want n\log n to be greater than 0, so n > 2.
 # Tree Method
