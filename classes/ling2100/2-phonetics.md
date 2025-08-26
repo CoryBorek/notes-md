@@ -35,6 +35,8 @@ the parts of the mouth that move are called articulators
 # Intro to the IPA
 The *International Phonetic Alphabet (IPA)* is an  alphabet designed to accurately represent sounds in any spoken language.
 
+![IPA](%RAW_BASE%/%REPO%/refs/heads/%BRANCH%/classes/ling2100/ipa.png)
+
 ## Why do we need the IPA?
 Used by linguists to correspond 1:1 between symbol and sound
 
