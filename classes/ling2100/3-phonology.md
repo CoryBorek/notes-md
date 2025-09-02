@@ -135,6 +135,24 @@ Not all environments are possible for all sounds, and those rules are langauge-s
 
 Distribution is either **complementary** or **contrastive**.
 
+## Complementary vs Contrastive
+
+Phonemes are a contrastive distribution
+
+They are unpredictible based on their environments
+
+Written in /slashes/ in order to indicate it is a mental concept of a sound
+
+Allophones are in complementary distribution
+
+Predictable based on environment
+
+Allophones have to be phonetically similar to one another, meaning that they have some features in common
+
+e.g. not [h] and [eng]
+
+Written in [square brackets]
+
 
 
 # Natural Classes
