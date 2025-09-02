@@ -35,7 +35,7 @@ the parts of the mouth that move are called articulators
 # Intro to the IPA
 The *International Phonetic Alphabet (IPA)* is an  alphabet designed to accurately represent sounds in any spoken language.
 
-![IPA](%RAWBASE%/%REPO%/refs/heads/%BRANCH%/classes/ling2100/ipa.png)
+![IPA](https://raw.githubusercontent.com/CoryBorek/notes-md/refs/heads/main/classes/ling2100/ipa.png)
 
 ## Why do we need the IPA?
 Used by linguists to correspond 1:1 between symbol and sound
@@ -306,5 +306,33 @@ No burst of air after
 [upside down j] in bi**tt**er
 
 
+# IPA other cool sounds
 
+## non-pulmonic consonants.
+Clicks:
+
+Bilabila,
+Denta, Postalveolar
+Palatolveolar
+
+Alveolar Lateral
+
+## Voiced implosives
+Bilabial
+Dental/alveolar
+Palatal
+Velar
+Uvular
+
+## Ejectives
+produced with a big puff of air, kind of a popping sound.
+
+We can find them on eLC..
+
+# Transcription
+Writing using IPA characters to get an idea of what something sounds like.
+
+Sounds in *Mercedes*
+
+ 
 ### [Back to ling2100](%WEBPATH%/classes/ling2100/)
