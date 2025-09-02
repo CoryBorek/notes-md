@@ -110,6 +110,31 @@ e.g. Do speakers of the languages X consider [upside down r] and [l] to be the s
 - In English, Spanish, and German: No! They're phonemes
 - In Japanese, Korean, and Hawaiian: Yes! They're all phonemes
 
+## Identifying Phonemes and Allophones
+When we identify whether two sounds are either phonemes or allophones in a particular language, we say either:
+
+The sounds are separate phonemes:
+ - Meaning speakers of the language consider these to be two different sounds
+ - If you switch the two sounds, speakers might think you're saying a different word
+
+Or: The sounds are allophones of the same phoneme
+- Meaning speakers consider these to be the same sound
+-
+
+## Phonemes or Allophpnes?
+
+The way we can tell whether a sound is a phoneme or allophone is based on its possible phonetic environment
+
+### Distribution
+Where does a sound occur?
+
+This involves the sounds before and after it.
+e.g. [b_t]
+
+Not all environments are possible for all sounds, and those rules are langauge-specific.
+
+Distribution is either **complementary** or **contrastive**.
+
 
 
 # Natural Classes
