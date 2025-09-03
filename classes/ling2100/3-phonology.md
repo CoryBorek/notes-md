@@ -153,9 +153,66 @@ e.g. not [h] and [eng]
 
 Written in [square brackets]
 
+# Complementary Distribution
+
+Two sounds are allophones in conplementary distribution if they belong to the same natural class, and don't occur within the same distribution
+
+e.g. [l] vs [~l]
+
+Say or think how you'd say the following words
+ - Lip
+ - like
+ - large
+ 
+ vs
+
+ - fall
+ - pill
+ - ill
+
+ [l] always appears at the beginning of words: #l
+
+ [~l] only appears at the end of words: l#
+
+ If we know the environment, we can always predict which allophone will appear.
+
+## Contrastive distribution
+ both sounds occur in same environment
+
+Complementary Distribution: One occurs in a specific environment, the other occurs elsewhere.
+
+## Minimal Pair
+
+If we can find a set of two or more words that differ by only one sound in the exact same place e.x. tool, rule
+
+if there is one, then they are phonemes, not allophones.
 
 
 # Natural Classes
+
+A Natural calss is a group of sounds that share at least one phonetic feature
+
+[p], [t], [k], [?]
+
+Are important because sounds with the same feature tend to be involved in simmilar patterns in language.
+
+Focuses on patterns of sounds within a language, and natural classes are the basis for most sounds
+
+## Identifying Natural Classes
+
+We include ALL of the sounds that are in a given language that fit the description
+
+ e.g. if we are describing the natural class of high vowels, we would need all of them.
+
+ Natural classes are usually identified by using brackets with a word that describes a phonetic similarity, and a binary option for either + or -
+
+ e.g. [+consonantal] meansthe natural clas of sounds that are consonants.
+
+ e.g. [+syllabic, -high, -low] = mid vowel (a vowel, not high, not low)
+
+ we typically use tons of abbreviations. You can use either the full word, or the abbreviation.
+
+ 
 
 # Phonological Rules
 
