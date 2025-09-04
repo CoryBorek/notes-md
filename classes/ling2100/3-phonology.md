@@ -212,11 +212,151 @@ We include ALL of the sounds that are in a given language that fit the descripti
 
  we typically use tons of abbreviations. You can use either the full word, or the abbreviation.
 
- 
+
+## Recap
+### What is a phoneme?
+The smallest unit of a sound, our mental representation of it.
+
+### What is an allophone
+A Variation of a phoneme that only occurs in a specific context.
+
+### Which type of distribution do we find phonemes in?
+
+Constrastive
+
+### Which type of distribution do we find allophones in?
+
+Complementary
+
+### Phonemes
+When we think of a phoneme, we think of it's default state, for example a p sound will be a /p/
+
+It may be different depending on context, but it will always be a /p/.
+
+### Allophones
+These are the several ways that you can say a sound.
+
+$[p]$ like pit, 
+$[p^h]$ like spit, $[p^\lnot]$ like tip.
+
+We will use diacritics every now and then, and will be explained.
+
+Some sounds that are not in english, will also be explained.
+
+For /p/. we will have $[p^h]$ at the beginning of the word, $[p^\lnot]$ at the end of a word, elsewhere we will find $[p]$.
+
+### Separate Phenomes
+This is a separate sound from our original phenome, like /p/ or /t/.
+
+### Distribution
+Phonemes can occur in the same place at the same time. This means that they are separate phonemes.
+
+This means that they are in contrastive distribution
+
+If they never occur in the same environment, they are in complementary distribution, and are allophones of the same phoneme.
+
+With allophones, we know what sound to expect depending on the environment they are in.
 
 # Phonological Rules
+How we change the sounds we're thinking into what we actually say.
 
+
+## What are they
+As we saw with allophones, the sound we say is different from what we think we are saying.
+
+The process of what we think becoming what we say has rules for changing the sound in our indinto the sound that we say.
+
+We can start with a sound as an underlying **form**.
+
+Next, a phonological rule applies.
+
+The phonological rule changes the sound we're thinking of into the sound that we say, which is called the **surface form**.
+
+## About Phonological Rules
+Phonological rules are language specific. They are part of a language's phonological constraints.
+
+They provide a formula for when to change one sound (the underlying form) into another (the surface form)
+
+They operate based on the environment of a sound, and can apply to either an individual sound or a natural class of sounds.
+
+## how we write rules
+
+Rules are written as:
+
+**Sound A** $\rarr$ Sound B / C _ D
+
+/ means "in the environment of"
+
+The underlined part is where the sound is and it will be next to at least one thing
+
+e.g. /p/ $\rarr [p^h]$ / #_
+
+This means that an underlying /p/ changes into a surface [$p^h$] in the environment of word initial position.
+
+Rules often have a name that explains what happens. 
+
+For example, I would call the one a "P-Aspiration"
+
+## Rules w/ Natural Classes
+Phonological Rules may involve one sound as an underlying surface form, or they may involve a natural class.
+
+e.g. In English a vowel that procedes a nasal consonent is produced with airflow through the nose.
+
+[+syllabic] $\rarr$ [NASAL] / _[NASAL]
+
+Example word: %Atlanta% [ɑtl~ɑntə]
 # Articulatory Processes
+
+TODO: look at what's immediately before this.
+
+## Assimilation
+When a sound becomes more similar to a sound around it
+
+Target sound changes into a different sound by changing one or more of its features to be more like it's major feature.
+
+Voicing assimilation e.g. *stopped*
+
+/stɑpd/ becomes /stɑpt/
+
+d changes to t in order to match the voicing feature of the sound before it.
+
+## Dissimilation
+A sound or segment of sounds changes to become less similar to a nearby sound
+
+e.g. *have you*
+
+ /hæv ju/ becomes /hæf ju/
+
+## Palatalization
+The place of articulation iof a sound moves closer towards the pallate
+
+e.g. *did you*
+
+[dɪd ju] becomes [dɪdʒə]
+
+## Meathesis
+
+Swiching the order of two sounds
+
+/æsk/ becomes [æks]
+
+As a side note this phonological change is very old. Both pronunciations can be found in Old English Manuscripts.
+
+TODO: see what's after this
+
+## English Pluralization Rule
+/z/ is pronounced as [s] after a voiceless consonant.
+
+/z/ does not change after a voiced consonant.
+
+/z/ is pronounced as [\smallI z] after a sibilant sound
+
+By Occam's razor, the simplest explanation is the best.
+
+/z/ $\rarr$ [s]
+ / [-voice, -sibilant]_#
+
+/z/ $\rarr$ [ɪz] / [+sibilant]_#
 
 # Phonology Problems
 
