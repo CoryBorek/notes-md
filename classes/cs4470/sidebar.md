@@ -2,4 +2,7 @@
  - [1 - Introduction](%WEBPATH%/classes/cs4470/1-intro)
  - [2 - Insertion Sort](%WEBPATH%/classes/cs4470/2-insertion-sort)
  - [3 - Asymptotic Notation](%WEBPATH%/classes/cs4470/3-asymptotic-notation)
+ - [4 - Recursive Analysis](%WEBPATH%/classes/cs4470/3-recursive-analysis)
+ - [5 - Average Runtime](%WEBPATH%/classes/cs4470/5-average-runtime)
+ - [6 - Heap](%WEBPATH%/classes/cs4470/5-heap)
  ### [Back to Classes](%WEBPATH%/classes/)
