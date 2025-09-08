@@ -304,7 +304,7 @@ e.g. In English a vowel that procedes a nasal consonent is produced with airflow
 
 [+syllabic] $\rarr$ [NASAL] / _[NASAL]
 
-Example word: %Atlanta% [ɑtl~ɑntə]
+Example word: *Atlanta* [ɑtl~ɑntə]
 # Articulatory Processes
 
 TODO: look at what's immediately before this.
