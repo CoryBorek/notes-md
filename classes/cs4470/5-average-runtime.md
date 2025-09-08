@@ -1,8 +1,58 @@
 # Average Runtime Analysis
 
+## Insertion Sort
+Best Case: 1 Comparison/iteration
 
-(notes done on paper: TODO: rewrite it here.)
+Worse Case: n - 1 comparisions / iteration
 
+Average Case: $\frac{(n-1)+1}{2} = \frac{n}{2}$ comparisions.
+
+$(n-1)\frac{n}{2} \in \Theta(n^2)$
+
+Closer to worst case.
+
+## Expected Value
+$E[X] = \sum_xxp(x)$
+
+x = outcome, = - probability.
+
+## Random Variable Notation
+
+Sample Space - S - Outcome of testing / possible outcomes
+
+### Example: Flipping a coin
+Sample Space: {H, T}
+
+Each has a 1/2 chance of happening.
+
+$P(H) = \frac{1}{2}$, $P(T) = \frac{1}{2}$.
+
+### Example: Weather
+Sample Space: {Cold, Rainy, Hot}. Those values are X.
+
+Probabilities: {.1, .4, .5}, all of them are equal to 1, which is our P(X).
+
+The individual numbers that are adding to one, is our distribution of x.
+
+x is a random variable that has a corresponding P(x).
+
+For example, P(Cold) = .1
+
+## Rules
+$Pr(\varnothing) = 0$ if $A \subseteq B$ then $Pr(A) \le Pr(B)$.
+
+$Pr(S-A) = 1 - Pr(A)$
+
+For any events A and B,  $Pr(A \cup B)  Pr(A) + Pr(B) - Pr(A \cap B)$
+
+$E[X] = \sum_{ A \in S}v(A) * Pr(A)$
+
+### Example: Cost of Stone
+X: $5, $30, $80, $100, $130
+
+P(X): $\frac{5}{15}, \frac{4}{15}, \frac{3}{15}, \frac{2}{15}, \frac{1}{15}$
+
+$E[X] = 5(\frac{5}{15}) + 30(\frac{4}{15}) + 80(\frac{3}{15}) + 100(\frac{2}{15}) + 130(\frac{1}{15}) = \$47.67$
 
 # Example Problem
 
