@@ -4,5 +4,6 @@
  - [3 - Asymptotic Notation](%WEBPATH%/classes/cs4470/3-asymptotic-notation)
  - [4 - Recursive Analysis](%WEBPATH%/classes/cs4470/3-recursive-analysis)
  - [5 - Average Runtime](%WEBPATH%/classes/cs4470/5-average-runtime)
- - [6 - Heap](%WEBPATH%/classes/cs4470/5-heap)
+ - [6 - Heap](%WEBPATH%/classes/cs4470/6-heap)
+ - [7 - QuickSort](%WEBPATH%/classes/cs4470/7-quicksort)
  ### [Back to Classes](%WEBPATH%/classes/)
