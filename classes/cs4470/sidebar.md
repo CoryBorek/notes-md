@@ -6,4 +6,6 @@
  - [5 - Average Runtime](%WEBPATH%/classes/cs4470/5-average-runtime)
  - [6 - Heap](%WEBPATH%/classes/cs4470/6-heap)
  - [7 - QuickSort](%WEBPATH%/classes/cs4470/7-quicksort)
+ - [8 - Linear Sorting](%WEBPATH%/classes/8-linear-sorting)
+ - [9 - Order Statistics](%WEBPATH%/classes/9-order-statistics)
  ### [Back to Classes](%WEBPATH%/classes/)
