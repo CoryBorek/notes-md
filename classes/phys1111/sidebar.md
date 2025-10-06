@@ -2,5 +2,7 @@
  - [1. Introduction](%WEBPATH%/classes/phys1111/1-intro)
  - [2. Vectors and Scalars](%WEBPATH%/classes/phys1111/2-vectors-scalars)
  - [3. Kinematics](%WEBPATH%/classes/phys1111/3-kinematics)
- 
+ - [4. Free Fall](%WEBPATH%/classes/phys1111/4-free-fall)
+ - [5. Uniform Circular Motion](%WEBPATH%/classes/phys1111/5-uniform-circular-motion)
+ - [6. Exam 1 Review](%WEBPATH%/classes/phys1111/6-exam-1-review)
 ### [Back to Classes](%WEBPATH%/classes/)

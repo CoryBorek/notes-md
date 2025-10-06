@@ -357,6 +357,7 @@ HeapInsert(A,key)
   while i > 1 and A[Parent(i)] < key
     A[i] = A[Parent(i)]
 ```
+
 TODO: finish this method from slides
 
 # Building a Heap

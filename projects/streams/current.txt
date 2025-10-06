@@ -1,3 +1,7 @@
-# DATE
+# 10/4/2025
 
-## No Stream Now!
+Trying to study while streaming
+
+ - [ ] Update CS4470 Notes
+ - [ ] Update Physics Notes
+ - [ ] Look into Binutils for LTHL
