@@ -28,12 +28,12 @@ Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein, 4th edition
 6. Quick sort
 7. Linear time sorting algorithm (counting sort, radix sort, bucket sort)
 8. Median and order statistics
-9. Elements of Dynamic Programming (matri chain multiplication)
+9. Elements of Dynamic Programming (matrix chain multiplication)
 10. Elements of Greedy Strategy (Knap Sack Problem, Huffman Code)
 11. Graph Algorithms (BFS, DFS, Topological Sort)
 12. Minnimum Spanning Tree (Prims and Kruskal Algorithms)
-13. Single Source Shortest PAth algorithms (Bellman-Ford, Djikstra's algorithm)
-14. All-Pairs Shortest PAth algorithms (Floyd-Warshall, Johnson's Algorithm)
+13. Single Source Shortest Path algorithms (Bellman-Ford, Djikstra's algorithm)
+14. All-Pairs Shortest Path algorithms (Floyd-Warshall, Johnson's Algorithm)
 15. Max-flow Problem (Ford-Fulkerson algorithm)
 16. NP-Completeness
 
