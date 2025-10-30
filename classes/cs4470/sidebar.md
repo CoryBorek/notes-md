@@ -10,4 +10,5 @@
  - [9 - Order Statistics](%WEBPATH%/classes/cs4470/9-order-statistics)
  - [10 - Dynamic Programming](%WEBPATH%/classes/cs4470/10-dynamic-programming)
  - [11 - Greedy Algorithms](%WEBPATH%/classes/cs4470/11-greedy-algorithms)
+ - [12 - Graphs](%WEBPATH%/classes/cs4470/12-graphs)
  ### [Back to Classes](%WEBPATH%/classes/)
