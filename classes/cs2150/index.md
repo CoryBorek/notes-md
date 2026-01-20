@@ -193,5 +193,12 @@ $$ 1.0 * 2^{-127} cannot be stored in 32 bits. $$
 
 ### Encoding
 
+Encode 3027.59375 as IEE754 32 bit float.
+
 ### Decoding
 
+[2] Decode the following into scientific notation in base 2.
+
+| Sign | Exponent  | Mantissa  |
+| ---- | --------  | --------  |
+|  0   | 0101 1010 | 01101 0.. |
