@@ -187,7 +187,7 @@ Works for almost every case, but 0.
 
 We define 32 bits of 0 as the encoding of $$0_{10}$$.
 
-$$ 1.0 * 2^{-127} cannot be stored in 32 bits. $$
+$$ 1.0 * 2^{-127} $$ cannot be stored in 32 bits.
 
 ## Exercise
 
