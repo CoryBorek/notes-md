@@ -17,8 +17,9 @@ If our alphabet is just 10 symbols, and a number is a word, then 10 is a word. (
 
 For computers, we base it as on and off, or positive and negative current. We can make it a base-2 system (1 and 0)
 
-| - | - |
+
 | Base 10 | Base 2 |
+| - | - |
 | 0 | 0 |
 | 1 | 1 |
 | 2 | 10 |
