@@ -9,6 +9,7 @@ These are some of my class notes from school. Some are up to date, others are no
  - [CS4720 - Computer Architecture and Organization](%WEBPATH%/classes/cs4720/)
  - [CS3030 - Computing Ethics and Society](%WEBPATH%/classes/cs3030/)
  - [CS4470 - Algorithms](%WEBPATH%/classes/cs4470/)
+ - [CS2150 - Intro to Scientific Computing](%WEBPATH%/classes/cs2150/)
 
 ### Other
  - [PHYS1111 - Physics](%WEBPATH%/classes/phys1111/)
