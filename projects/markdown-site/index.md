@@ -9,9 +9,10 @@ The source for that is available [here](https://github.com/CoryBorek/markdown-si
 
 There's been a few changes over the last few weeks that I have been developing it, so my changelogs can be seen in the index after this.
 
-## Changelogs
- - [2024-10-8 - Initial Version](%WEBPATH%/projects/markdown-site/2024-10-8)
- - [2024-10-19 - Code Support](%WEBPATH%/projects/markdown-site/2024-10-19)
+## Recent Changelogs
+ - [2025-8-18 - Sidebar](%WEBPATH%/projects/markdown-site/2025-8-18)
  - [2025-1-8 - Built in pages, Source Code pages](%WEBPATH%/projects/markdown-site/2025-1-8)
+ - [2024-10-19 - Code Support](%WEBPATH%/projects/markdown-site/2024-10-19)
+
 
 ### [Back to Projects](%WEBPATH%/projects/)
