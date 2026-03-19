@@ -11,6 +11,7 @@ All of them can be accessed via the sidebar, but some better descriptions can be
 
 ### Content
  - ### [Overseasons SMP](%WEBPATH%/projects/overseasons-smp/), a Minecraft SMP Server that I play and record on.
+ - ### [LavaCraft Season 4](%WEBPATH%/projects/lavacrafts4/), a Content Creator Minecraft SMP Server. 
  - ### [Other Videos](%WEBPATH%/projects/other-videos/), Misc. Videos that I make
  - ### [Low To High Level](%WEBPATH%/projects/low-to-high-level/), My YouTube channel in where we build a computer from the lowest level to the modern day.
 
